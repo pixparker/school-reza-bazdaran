@@ -1,7 +1,9 @@
 body {
-    width: 100%;
-    height: 900px;
-    background-image: linear-gradient(#040451, #05DDD3);
+     background-image: linear-gradient(#040451, #05DDD3);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+
 
 }
 
