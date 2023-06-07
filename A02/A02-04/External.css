@@ -1,0 +1,6 @@
+div.external {
+    border: solid 2px #ff0000;
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 15px;
+}
