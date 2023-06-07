@@ -1,0 +1,44 @@
+.cssColor {
+    height: 100px;
+    border: solid 2px black;
+    text-align: center;
+
+    background-color: greenyellow;
+    margin-bottom: 20px;
+}
+
+
+.rgb {
+    height: 100px;
+    border: dotted 2px rgb(99, 99, 187);
+    text-align: center;
+
+    background-color: #07D1D1;
+    margin-bottom: 20px;
+}
+
+.hex {
+    height: 100px;
+    border: solid 2px #F14A0D;
+    text-align: center;
+
+    background-color: #FFDD00;
+    margin-bottom: 20px;
+}
+
+.hsl {
+    height: 100px;
+    border: dotted 2px #362A79;
+    text-align: center;
+
+    background-color: hsl(248, 63%, 81%);
+    margin-bottom: 20px;
+}
+
+
+
+div {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
