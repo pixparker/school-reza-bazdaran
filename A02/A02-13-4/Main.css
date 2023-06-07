@@ -13,22 +13,40 @@ body {
     background-attachment: fixed;
 
 }
-.box1{
-    margin-top: 200px ;
-    
+
+.box1 {
+    margin: 200px auto 0 auto;
+    ;
+
     width: 380px;
     height: 250px;
     background-color: black;
-    border-radius:20px 20px 0px 0px ;
-    
+    border-radius: 20px 20px 0px 0px;
+
 }
 
-.box2{
-    margin-top: 100px;
-    margin-left: 50px;
-    width: 100px;
-    height: 100px;
+.box2 {
+    margin: 0px auto 0 auto;
+    width: 380px;
+    height: 150px;
     background-color: rgb(79, 9, 9);
-    border-radius:20px 20px 0px 0px ;
-    
+}
+
+.box3 {
+    margin: 0px auto 0 auto;
+    width: 380px;
+    height: 60px;
+    background-color: black;
+    border-radius: 0 0 20px 20px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0px 0px;
 }
