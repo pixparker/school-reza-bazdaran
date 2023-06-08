@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+
+.d1{
+    width: 400px;
+    border: solid 10px yellow;
+}
+
+.d2{
+    border: solid 15px #003D6E;
+}
+
+.d3{
+    border: solid 20px cyan;
+}
