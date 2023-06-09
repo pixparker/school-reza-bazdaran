@@ -1,19 +1,20 @@
 body {
     background-image: url(Images/pic.jpg);
-    height: 100vh;
+    /* height: 100vh; */
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
     background-size: cover;
 }
 
 .title {
-    width: 600px;
+    width: fit-content;
     color: white;
     font-size: 80px;
     font-family: 'Courier New', Courier, monospace;
     margin: 10% auto;
     font-weight: bold;
+    
 }
 
 .angel {
@@ -31,5 +32,5 @@ a{
     border-radius: 10px;
     background-image: linear-gradient(#FF4B00,#FFFC19);
     font-size: 25px;
-    margin:0px auto;
+    margin: auto;
 }
