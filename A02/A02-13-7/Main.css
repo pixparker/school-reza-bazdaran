@@ -3,9 +3,8 @@
 }
 
 body {
-    background-image: linear-gradient(#050407, #8C6BCB);
+    background: linear-gradient(#050407, #8C6BCB);
     background-attachment: fixed;
-    
     
 }
 
