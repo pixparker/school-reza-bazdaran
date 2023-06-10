@@ -1,16 +1,29 @@
-h1{
-    text-align: center;
+* {
+	margin: 0px;
 }
-
-.d1{
-    width: 400px;
-    border: solid 10px yellow;
+.margin {
+	width: 400px;
+	height: 600px;
+	border: solid 20px yellow;
 }
-
-.d2{
-    border: solid 15px #003D6E;
+.padding-border {
+	box-sizing: border-box;
+	height: inherit;
+	border: solid 20px #003d6e;
+	padding: 20px;
+	background-color: #00ffff;
+	overflow: hidden;
 }
-
-.d3{
-    border: solid 20px cyan;
+.content {
+	background-color: white;
+	height: 100%;
+	overflow: hidden;
+}
+.title {
+	text-align: center;
+	font-size: 40px;
+}
+.desc {
+	width: 400;
+	height: 600;
 }
