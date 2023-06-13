@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+* {
+	margin: 0;
+}
+.container {
+	box-sizing: border-box;
+	padding: 20px 50px;
+	background: linear-gradient(#da3e2e, #0064ff);
+	/* height: 100vh; */
+}
+
+li {
+	color: black;
+	
+}
+a {
+	font-size: 35px;
+	color: wheat;
+	text-decoration: none;
+	font-family: "Rubik Puddles", cursive;
+	
+}
+.htmlcss {
+	border-radius: 20px;
+	text-align: center;
+	width: 70%;
+	background: linear-gradient(#3b1f21, #0b264b);
+	margin: 30px auto;
+	padding: 45px 80px;
+}
+.titleCSS {
+	color: #020b97;
+	font-size: 60px;
+	font-weight: bold;
+	text-shadow: 0px 0px 25px white;
+	padding-bottom: 40px;
+	font-family: "Dancing Script", cursive;
+}
+
+.descCSS {
+	text-indent: 40px;
+	color: white;
+	text-align: justify;
+	font-size: 22px;
+	line-height: 50px;
+}
+.cssspan {
+	text-decoration: double underline #0064ff;
+	color: #1bd4df;
+}
+
+hr {
+	margin-top: 30px;
+	display: inline-block;
+	padding: 2px;
+	background-color: white;
+	width: 100%;
+}
+
+.titleHTML {
+	color: black;
+	font-size: 60px;
+	font-weight: bold;
+	text-shadow: 0px 0px 25px red;
+	padding-bottom: 40px;
+	padding-top: 20px;
+	font-family: "Dancing Script", cursive;
+}
+.descHTML {
+	text-indent: 40px;
+	color: #cfbf27;
+	text-align: justify;
+	font-size: 22px;
+	line-height: 50px;
+}
+
+.htmlspan {
+	text-decoration: underline wavy 4px #870e02;
+}
