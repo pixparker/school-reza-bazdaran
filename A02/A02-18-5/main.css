@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: linear-gradient(to left, #2c3f54, #bbc2c7);
+	height: 100vh;
+	box-sizing: border-box;
+	padding-top: 50px;
+}
+.svg {
+	background-image: url(icons/devicon.svg);
+	background-position: center top;
+	background-position-y: 100px;
+	background-repeat: no-repeat;
+	background-size: 300px;
+	width: 400px;
+	height: 600px;
+	border: solid 2px white;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.sub {
+	margin-top: 120%;
+	font-size: 70px;
+	font-weight: bold;
+	color: aqua;
+	font-family: "Dancing Script", cursive;
+}
+.hide {
+	display: none;
+	text-align: justify;
+	height: 600px;
+	color: white;
+	padding: 20px;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+
+.svg:hover {
+	background: linear-gradient(to left, #1259a2, #38bda3);
+	.sub {
+		margin-top: 10%;
+		color: #001244;
+		font-size: 100px;
+	}
+	.hide {
+		display: block;
+	}
+}
