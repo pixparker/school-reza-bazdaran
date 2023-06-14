@@ -1,0 +1,52 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	margin: 20px;
+}
+.btn1,
+.btn2,
+.btn3,
+.btn4 {
+	margin: 2px 0px;
+}
+i.home,
+i.settings,
+i.add,
+i.contacts {
+	display: table-cell;
+
+	color: white;
+	font-size: 25px;
+	background-color: #424242;
+	padding: 0px 30px;
+	font-family: monospace;
+	text-transform: uppercase;
+	user-select: none;
+	width: 120px;
+}
+
+.material-icons {
+	border-radius: 7px 0px 0px 7px;
+	display: table-cell;
+	border-right: solid 3px #000;
+	color: aqua;
+	background-color: #424242;
+	user-select: none;
+}
+
+.home:hover,
+.settings:hover,
+.add:hover,
+.contacts:hover {
+	background-color: aqua;
+}
+
+.home:active,
+.settings:active,
+.add:active,
+.contacts:active {
+	background-color: #005AFF;
+}
