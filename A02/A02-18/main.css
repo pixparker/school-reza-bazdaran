@@ -1,0 +1,138 @@
+body {
+	background-color: black;
+	margin: 50px;
+}
+
+.btn1 {
+	margin: 20px;
+	padding: 10px 20px;
+	border-radius: 7px;
+	border: 1px solid rgb(61, 106, 255);
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 3px;
+	background: transparent;
+	color: #fff;
+}
+
+.btn1:hover {
+	background: rgb(61, 106, 255);
+	box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+}
+
+.btn1:active {
+	box-shadow: 0 0 0 0 transparent;
+	transition: box-shadow 0.2s;
+}
+
+/* ================================================== */
+
+.btn2 {
+	margin: 20px;
+	padding: 10px 20px;
+
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border: 1px solid rgb(255, 61, 245);
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 3px;
+	background: transparent;
+	color: #78d980;
+}
+
+.btn2:hover {
+	background: rgb(255, 61, 245);
+	box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+}
+
+.btn2:active {
+	box-shadow: 0 0 0 0 transparent;
+	background-color: rgb(129, 30, 210);
+	transition: box-shadow 0.3s;
+}
+
+/* ================================================== */
+
+.btn3 {
+	margin: 20px;
+	padding: 10px 20px;
+	border-radius: 20px;
+	border: 1px solid rgb(61, 255, 103);
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 3px;
+	background: linear-gradient(black, rgb(27, 25, 25));
+	color: #ffffff;
+	box-shadow: 0px 0px 5px #297f30;
+}
+
+.btn3:hover {
+	background: rgb(23, 1, 22);
+	box-shadow: 0 0 30px 5px rgba(20, 236, 0, 0.815);
+}
+
+.btn3:active {
+	box-shadow: 0 0 0 0 transparent;
+	background-color: rgb(93, 210, 30);
+	transition: box-shadow 0.5s;
+}
+
+/* ================================================== */
+
+.btn4 {
+	margin: 20px;
+	padding: 10px 20px;
+
+	border-radius: 40%;
+
+	border: 4px dotted rgb(75, 190, 240);
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 3px;
+	background: transparent;
+	color: #78d980;
+}
+
+.btn4:hover {
+	border: 4px dotted rgb(75, 190, 240);
+	background: transparent;
+	box-shadow: 0 0 20px rgb(75, 190, 240);
+}
+
+.btn4:active {
+	color: white;
+	border: 4px dotted rgb(21, 4, 21);
+	box-shadow: 0 0 0 0 transparent;
+	background-color: rgb(30, 183, 210);
+	transition: box-shadow 0.1s;
+}
+
+/* ================================================== */
+
+.btn5 {
+	margin: 20px;
+	padding: 10px 20px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	border-radius: 20px 10px 20px 10px;
+	border: 1px solid rgb(9, 31, 85);
+	font-size: 14px;
+	letter-spacing: 5px;
+	background: transparent;
+	color: #78d980;
+}
+
+.btn5:hover {
+	background:transparent;
+	box-shadow: 0 0 25px 3px rgba(0, 142, 236, 0.815);
+}
+
+.btn5:active {
+	box-shadow: 0 0 0 0 ;
+	background-color: rgb(30, 23, 167);
+	transition: box-shadow 0.1s;
+}
