@@ -6,47 +6,46 @@
 .container {
 	margin: 20px;
 }
-.btn1,
-.btn2,
-.btn3,
-.btn4 {
-	margin: 2px 0px;
-}
-i.home,
-i.settings,
-i.add,
-i.contacts {
-	display: table-cell;
-
-	color: white;
-	font-size: 25px;
+.btn {
+	box-sizing: border-box;
+	width: 300px;
+	height: 45px;
 	background-color: #424242;
-	padding: 0px 30px;
-	font-family: monospace;
-	text-transform: uppercase;
+	margin: 2px;
+	border-radius: 10px 0px 0px 10px;
 	user-select: none;
-	width: 120px;
+	cursor: pointer;
+	color: white;
 }
 
 .material-icons {
 	border-radius: 7px 0px 0px 7px;
-	display: table-cell;
-	border-right: solid 3px #000;
 	color: aqua;
-	background-color: #424242;
 	user-select: none;
+	font-size: 35px !important;
+}
+span {
+	font-family: monospace;
+	font-size: 40px;
 }
 
-.home:hover,
-.settings:hover,
-.add:hover,
-.contacts:hover {
+.btn:hover {
 	background-color: aqua;
+	color: black;
+	i {
+		color: black;
+	}
 }
 
-.home:active,
-.settings:active,
-.add:active,
-.contacts:active {
-	background-color: #005AFF;
+.btn:hover .material-icons {
+	color: black;
+}
+
+.btn:active {
+	background-color: #005aff;
+	color: white;
+}
+
+.btn:active .material-icons {
+	color: white;
 }
