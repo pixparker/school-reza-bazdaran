@@ -4,49 +4,48 @@
 	padding: 0px;
 }
 body {
-	background: linear-gradient(to left, #2c3f54, #bbc2c7);
+	background: linear-gradient(#00072b, #003e83);
 	height: 100vh;
 	box-sizing: border-box;
 	padding-top: 50px;
 }
-.svg {
-	background-image: url(icons/devicon.svg);
-	background-position: center top;
-	background-position-y: 100px;
-	background-repeat: no-repeat;
-	background-size: 300px;
+.container {
+	background: linear-gradient(to left, #ea3731, #834c96);
+	box-sizing: border-box;
 	width: 400px;
-	height: 600px;
+	height: 500px;
 	border: solid 2px white;
-	margin: 20px auto;
+	margin: 200px auto;
 	text-align: center;
+}
+i {
+	font-size: 400px !important;
 }
 
 .sub {
-	margin-top: 120%;
 	font-size: 70px;
 	font-weight: bold;
-	color: aqua;
-	font-family: "Dancing Script", cursive;
+	color: #898281;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+		Verdana, sans-serif;
 }
 .hide {
-	display: none;
+	font-size: 0px;
 	text-align: justify;
-	height: 600px;
-	color: white;
-	padding: 20px;
-	font-size: 25px;
-	font-family: sans-serif;
+	box-sizing: border-box;
+	color: black;
+	background-color: white;
+	padding: 0px;
+	margin: 0px auto;
+
+	font-family: Dancing Script;
 }
 
-.svg:hover {
-	background: linear-gradient(to left, #1259a2, #38bda3);
-	.sub {
-		margin-top: 10%;
-		color: #001244;
-		font-size: 100px;
-	}
+.container:hover {
 	.hide {
-		display: block;
+		font-size: 25px;
+		padding: 15px;
 	}
+	height: 730px;
+	margin: 20px auto;
 }
