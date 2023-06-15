@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: linear-gradient(#bbc1c6, #3e4e60);
+	height: 100vh;
+	box-sizing: border-box;
+	padding-top: 50px;
+}
+.container {
+	background-image: url(image/mountain.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 400px;
+	height: 600px;
+	border: solid 2px white;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.sub {
+	font-size: 40px;
+	color: aqua;
+
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+		Verdana, sans-serif;
+	margin-top: 80px;
+	padding: 20px;
+}
+
+.btn {
+	margin: auto;
+	color: white;
+	font-size: 0px;
+}
+
+.hide {
+	font-size: 0px;
+	text-align: justify;
+	color: white;
+	padding: 20px;
+	font-family: "Dancing Script", cursive;
+}
+
+.container:hover {
+	background: linear-gradient(#1259a2, #38bda3);
+	.sub {
+		margin-top: 10%;
+		color: black;
+		font-size: 30px;
+		text-align: left;
+	}
+	.hide {
+		font-size: 25px;
+	}
+	.btn {
+		margin: auto;
+		border: solid 2px black;
+		border-radius: 15px 0px 15px 15px;
+		font-size: 28px;
+		width: 100px;
+		background-color: aqua;
+		user-select: none ;
+		
+	}
+}
+
+.btn:hover{
+	color: black;
+	cursor: default;
+}
