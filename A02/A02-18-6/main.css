@@ -1,59 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
-
 * {
 	margin: 0px;
 	padding: 0px;
 }
 body {
-	/* background: linear-gradient(##00072A, ##003D81); */
-	background: linear-gradient(to bottom, #00072a, #003d81);
+	background: linear-gradient(to left, #2c3f54, #bbc2c7);
 	height: 100vh;
 	box-sizing: border-box;
 	padding-top: 50px;
-	text-align: center;
-}
-.container {
-	display: inline-block;
-	background: linear-gradient(#ea3731, #824d98);
-	
 }
 .svg {
 	background-image: url(icons/devicon.svg);
 	background-position: center top;
-	background-position-y: 40px;
+	background-position-y: 100px;
 	background-repeat: no-repeat;
-	background-size: 200px;
+	background-size: 300px;
 	width: 400px;
-	height: 700px;
+	height: 600px;
 	border: solid 2px white;
-	margin: 0px auto;
+	margin: 20px auto;
 	text-align: center;
 }
 
 .sub {
-	margin-top: 70%;
+	margin-top: 120%;
 	font-size: 70px;
 	font-weight: bold;
-	color: #9c7886;
-	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	color: aqua;
+	font-family: "Dancing Script", cursive;
 }
 .hide {
-
 	display: none;
-	margin-top: 40px;
 	text-align: justify;
-	/* height: 60px; */
-	color: black;
+	height: 600px;
+	color: white;
 	padding: 20px;
-	font-size: 30px;
-	font-family: 'Dancing Script', cursive;
-	background-color: white;
+	font-size: 25px;
+	font-family: sans-serif;
 }
 
 .svg:hover {
-	
-	
+	background: linear-gradient(to left, #1259a2, #38bda3);
+	.sub {
+		margin-top: 10%;
+		color: #001244;
+		font-size: 100px;
+	}
 	.hide {
 		display: block;
 	}
