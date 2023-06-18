@@ -45,7 +45,10 @@ body {
 }
 
 .container:hover {
-	background: linear-gradient(#1259a2, #38bda3);
+	background: linear-gradient(aqua, rgba(255, 255, 255, 0.1)), url(image/mountain.jpg);
+	background-size: cover;
+	background-position: center;
+
 	.sub {
 		margin-top: 10%;
 		color: black;
@@ -62,12 +65,11 @@ body {
 		font-size: 28px;
 		width: 100px;
 		background-color: aqua;
-		user-select: none ;
-		
+		user-select: none;
 	}
 }
 
-.btn:hover{
+.btn:hover {
 	color: black;
 	cursor: default;
 }
