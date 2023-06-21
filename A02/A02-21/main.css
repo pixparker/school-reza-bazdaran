@@ -6,7 +6,6 @@
 	color: white;
 }
 body {
-	border: solid 10px transparent;
 	margin: 0px;
 	padding: 0px;
 	background: linear-gradient(230deg, #4c2767, #57dedc);
@@ -16,6 +15,7 @@ div.container {
 	box-sizing: border-box;
 	margin: 0px;
 	padding-top: 100px;
+	height: 600px;
 }
 
 p {
@@ -33,7 +33,6 @@ tr {
 }
 td,
 th {
-	border: solid 4px rgba(255, 255, 255, 0.05);
 	font-size: 20px;
 	width: 150px;
 	height: 65px;
@@ -42,17 +41,19 @@ th {
 	background-color: #367298;
 	font-size: 20px;
 }
-td {
-	visibility: hidden;
+td,
+caption {
+	visibility: collapse;
 	border: none;
 }
-/* tbody {
-	visibility: collapse !important;
-} */
+
+tbody {
+	visibility: collapse;
+	border: none;
+}
 
 td:hover {
 	background: linear-gradient(#566f8f, #654885);
-	
 }
 td:nth-child(1) {
 	width: 100px;
@@ -60,18 +61,17 @@ td:nth-child(1) {
 td:nth-child(2) {
 	width: 100px;
 }
+
+div.container:hover tbody {
+	visibility: visible;
+}
+div.container:hover caption {
+	visibility: visible;
+}
+
 table:hover td,
 table,
-th,tbody {
-	visibility: visible !important ;
+th {
+	visibility: visible;
 	border: solid 4px rgba(255, 255, 255, 0.05);
-}
-
-.containet:hover td
- {
-	visibility: hidden;
-}
-body:hover tbody {
-
-	visibility: collapse;
 }
