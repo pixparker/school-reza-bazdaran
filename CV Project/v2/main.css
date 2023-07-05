@@ -89,6 +89,11 @@ div .downcv .pro-img {
 	background-size: cover;
 	box-shadow: 0px 0px 10px #000000;
 }
+div .downcv .pro-img:hover{
+
+
+	
+}
 
 div .downcv .pro-desc {
 	margin-left: 50px;
