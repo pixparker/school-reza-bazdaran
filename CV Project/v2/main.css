@@ -140,6 +140,7 @@ div .downcv .pro-img .blur-img:hover {
 
 div .downcv .pro-img .blur-img:hover .showname {
 	visibility: visible;
+	
 }
 
 div .downcv .pro-img .blur-img .showname {
@@ -153,6 +154,7 @@ div .downcv .pro-img .blur-img .showname {
 	background: linear-gradient(to left, #3b0b71, #406350, #9ad4b7, #331593);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	
 }
 
 div .downcv .pro-desc {
