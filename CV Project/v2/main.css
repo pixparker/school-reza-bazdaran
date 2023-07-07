@@ -1,20 +1,57 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 
-body  {
+@import url("https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap");
+
+body {
 	font-family: "Poppins", sans-serif;
 	margin: 0px;
 	padding: 3px;
 	background-color: #007ced;
 	background-image: url(images/main_bg.png);
 	background-size: 100%;
+	backdrop-filter: blur(2px);
 }
 div.container {
 	width: 1240px;
 	height: auto;
-	padding: 0px 40px 40px 40px;
+	padding: 10px 40px 40px 40px;
 	margin: 50px auto;
 	background-color: #222222;
 	border-radius: 40px;
+	backdrop-filter: blur(20px);
+}
+
+.intro {
+	margin-top: 40px;
+	border-radius: 40px;
+	padding: 0px;
+	/* background-image: url(images/web-design-2906159_1280.jpg); */
+	background-image: url(images/workspace-1280538_1280.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.cvbody {
+	margin-top: 0px;
+	border-radius: 40px;
+	padding: 0px;
+	background-image: url(images/background-2426328_1280.jpg);
+
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.cvbottom {
+	margin-top: 0px;
+	border-radius: 40px;
+	padding-bottom: 30px;
+	background-image: url(images/webdesign-4566239_1280.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 div.header {
 	margin: 0px;
@@ -89,10 +126,33 @@ div .downcv .pro-img {
 	background-size: cover;
 	box-shadow: 0px 0px 10px #000000;
 }
-div .downcv .pro-img:hover{
+div .downcv .pro-img .blur-img {
+	vertical-align: top;
+	display: inline-block;
+	width: 320px;
+	height: 320px;
+	border-radius: 50%;
+}
 
+div .downcv .pro-img .blur-img:hover {
+	backdrop-filter: blur(10px);
+}
 
-	
+div .downcv .pro-img .blur-img:hover .showname {
+	visibility: visible;
+}
+
+div .downcv .pro-img .blur-img .showname {
+	font-size: 50px;
+	font-family: "Princess Sofia", cursive;
+	color: #b6b9ad;
+	margin-top: 100px;
+	visibility: hidden;
+	user-select: none;
+	font-weight: bolder;
+	background: linear-gradient(to left, #3b0b71, #406350, #9ad4b7, #331593);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 div .downcv .pro-desc {
@@ -105,9 +165,13 @@ div .downcv .pro-desc {
 	color: white;
 }
 
-div .downcv .pro-desc h4 {
+div .downcv .pro-desc .pro-exp {
 	text-align: justify;
-	color: #aaaaaa;
+	color: #0f4170;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	/* font-style: italic; */
+	font-weight: bold;
+	font-size: 20px;
 }
 div .downcv .pro-desc h1 {
 	text-align: justify;
@@ -191,6 +255,10 @@ i.fa-solid {
 	font-size: 70px;
 	color: #007ced;
 }
+
+i.fa-solid:hover {
+	text-shadow: 0px 0px 14px #007ced;
+}
 .what1,
 .what2 {
 	margin: 0px;
@@ -208,6 +276,27 @@ i.fa-solid {
 	display: inline-block;
 	margin: 5px;
 	font-family: Arial, Helvetica, sans-serif;
+}
+.copywrite-text,
+.webdesign-text,
+.ecommerce-text,
+.marketing-text {
+	visibility: hidden;
+}
+
+.copywrite:hover .copywrite-text {
+	visibility: visible;
+}
+
+.webdesign:hover .webdesign-text {
+	visibility: visible;
+}
+
+.ecommerce:hover .ecommerce-text {
+	visibility: visible;
+}
+.marketing:hover .marketing-text {
+	visibility: visible;
 }
 
 .test-items {
@@ -258,12 +347,14 @@ i.fa-solid {
 	color: #b6b9ad;
 	font-size: 15px;
 }
+
 .item3 {
 	display: none;
 }
 
-.item1:hover {
-	background: linear-gradient(rgb(36, 114, 6), rgb(86, 83, 83));
+.item1:hover,
+.item2:hover {
+	background: linear-gradient(#404f5f, rgb(86, 83, 83) 50%, transparent 90%);
 }
 
 .fun-facts {
