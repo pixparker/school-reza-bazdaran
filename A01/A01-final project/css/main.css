@@ -1,37 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
 html {
-  font-size: 22px;
+	font-size: 22px;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+		Verdana, sans-serif;
 }
 
 body {
-  min-height: 100vh;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 1rem;
-  border-left: 1px solid #333;
-  border-right: 1px solid #333;
+	min-height: 100vh;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 1rem;
+	border-left: 1px solid #333;
+	border-right: 1px solid #333;
+	background: linear-gradient(rgb(199, 92, 92), rgb(172, 223, 18), rgb(94, 211, 111), transparent);
+}
+
+.active-container {
+	background-image: url(../images/6272-removebg-preview.png);
+	background-position: center;
+	background-size: cover;
+}
+.active-img {
+	border-radius: 30px;
+}
+
+.cong-hero {
+	text-shadow: 2px 2px 15px rgba(255, 255, 255);
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: rgb(157, 89, 222);
+}
+table {
+	background: linear-gradient(to left, rgb(85, 85, 181), transparent, rgb(146, 149, 197));
 }
 
 th,
 td,
 caption {
-  border: 1px solid #333;
-  font-family: "Courier New", Courier, monospace;
-  border-collapse: separate;
-  padding: 0.5rem;
+	border: 1px solid #333;
+	font-family: "Courier New", Courier, monospace;
+	border-collapse: separate;
+	padding: 0.5rem;
+}
+td:hover,
+th:hover {
+	background: linear-gradient(rgb(202, 75, 75), yellow, rgb(141, 70, 70));
+	user-select: none;
+}
+
+.back-top {
+	text-decoration: none;
+	color: black;
+	background: linear-gradient(
+		rgba(0, 255, 38, 0.343),
+		rgba(24, 173, 24, 0.246),
+		rgba(0, 200, 255, 0.395)
+	);
+	padding: 10px;
+	border-radius: 15px;
+	border: solid 1px black;
+	box-shadow: 2px 2px 2px;
+}
+
+.back-top:active {
+	box-shadow: inset 2px 2px 10px;
 }
 
 tfoot,
 thead {
-  text-align: center;
+	text-align: center;
 }
 
-
-
 .dotted {
-
-  border-bottom: dotted 3px #333;
+	border-bottom: dotted 3px #333;
 }
 
 .devtools {
-  margin-top: 0px;
+	margin-top: 0px;
+	font-family: "Caprasimo", cursive;
+}
+.dev-img,
+.contact-img {
+	box-shadow: 3px 5px 12px 2px #333;
+	border-radius: 30px;
+}
+
+.about-ssh {
+	text-shadow: 0px 0px 4px #fff;
+}
+.what-html:hover {
+	background: linear-gradient(rgb(108, 75, 175), rgba(79, 168, 70));
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "Pacifico", cursive;
+	line-height: 35px;
+}
+
+.text-area:hover {
+	background: linear-gradient(rgb(108, 75, 175), rgba(79, 168, 1, 0.1)),
+		url(../images/6272-removebg-preview.png);
+	background-position: center;
+	background-size: cover;
+}
+.submit-btn {
+	color: white;
+	background-color: rgba(64, 194, 194, 0.688);
+	font-weight: bold;
+	border-radius: 5px;
+	width: 100px;
+	height: 25px;
+	box-shadow: 0px 0px 2px 1px #4a4cc8;
+	cursor: pointer;
+	padding-top: 2px;
+}
+.reset-btn {
+	color: white;
+	background-color: rgba(178, 78, 200, 0.618);
+	font-weight: bold;
+	border-radius: 5px;
+	width: 100px;
+	height: 25px;
+	box-shadow: 0px 0px 2px 1px #37399e;
+	cursor: pointer;
+	padding-top: 2px;
+}
+.submit-btn:hover,
+.reset-btn:hover {
+	color: black;
+	box-shadow: 0px 0px 2px 2px #5a86bfc4;
+}
+
+.submit-btn:active,
+.reset-btn:active {
+	color: white;
+	box-shadow: 0px 0px 2px 2px #bcbf5ac4 inset;
 }
