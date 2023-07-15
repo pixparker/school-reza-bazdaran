@@ -1,0 +1,23 @@
+.container {
+	text-align: center;
+}
+.wellcome-title {
+	color: #008000;
+}
+
+.wellcome-desc {
+	color: red;
+}
+
+.image {
+	width: 25%;
+}
+.image1 {
+	float: left;
+	margin-left: 5%;
+}
+
+.image3 {
+	float: right;
+	margin-right: 5%;
+}
