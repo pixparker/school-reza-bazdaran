@@ -1,0 +1,31 @@
+* {
+	margin: 0px auto;
+}
+.side-navbar {
+	background-color: #f3f3f3;
+}
+
+.side-navbar > li {
+	display: inline-block;
+	padding: 20px;
+	font-size: 2em;
+	color: #70788b;
+}
+
+.main {
+	height: 500px;
+	background-color: #393838;
+	color: white;
+}
+
+.main-title {
+	display: inline-block;
+	font-size: 50px;
+	font-weight: 800;
+	margin: 20px;
+}
+
+.main-text {
+	margin-left: 20px;
+	font-size: 1.4em;
+}
