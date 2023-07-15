@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+}
+.dropdown {
+	display: inline-block;
+	position: relative;
+}
+.menu {
+	background-color: green;
+	display: inline-block;
+	padding: 15px;
+}
+.menu-content {
+	position: absolute;
+}
+.sub {
+	display: block;
+	padding: 10px;
+	width: 100px;
+	background-color: gray;
+	display: none;
+}
+
+.sub:hover {
+	background-color: lightgray;
+	cursor: pointer;
+}
+
+.dropdown:hover .sub {
+	display: block;
+}
