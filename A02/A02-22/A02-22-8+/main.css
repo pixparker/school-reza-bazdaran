@@ -1,0 +1,59 @@
+.container {
+	margin: 50px;
+	font-family: sans-serif;
+}
+
+.container .page-text {
+	font-size: 18px;
+}
+
+/* .page-buttons > div > a {
+	text-decoration: none;
+} */
+
+.page-num {
+	text-decoration: none;
+	color: black;
+	border: solid 1px #dedede;
+	padding: 10px 15px;
+	font-size: 1.1em;
+	float: left;
+	margin: 3px;
+	user-select: none;
+}
+
+.page-back,
+.page-next {
+	text-decoration: none;
+	color: black;
+	border: solid 1px #dedede;
+	padding: 10px 15px;
+	font-size: 1.1em;
+	float: left;
+	margin: 3px;
+	background-color: rgb(229, 229, 229);
+	user-select: none;
+}
+
+.page-num:hover {
+	background-color: rgb(115, 192, 115);
+	cursor: pointer;
+	box-shadow: 0px 0px 2px 1px #ccc;
+}
+.page-num:active {
+	background-color: rgb(54, 93, 54);
+	color: white;
+	box-shadow: 0px 0px 2px 1px #ccc inset;
+}
+
+.page-back:hover,
+.page-next:hover {
+	background-color: rgb(149, 149, 149);
+	cursor: default;
+}
+
+.page-back:active,
+.page-next:active {
+	background-color: rgb(93, 87, 87);
+	color: white;
+}
