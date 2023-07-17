@@ -1,0 +1,28 @@
+.display {
+	box-sizing: border-box;
+	width: 100px;
+	height: 100px;
+	background-color: aquamarine;
+	margin: 20px;
+	text-align: center;
+	padding: 35px 0px;
+	cursor: pointer;
+}
+.visiblity {
+	box-sizing: border-box;
+	width: 100px;
+	height: 100px;
+	background-color: rgb(80, 166, 137);
+	text-align: center;
+	margin: 20px;
+	padding: 35px 0px;
+	cursor: pointer;
+}
+
+.display:active {
+	display: none;
+}
+
+.visiblity:active {
+	visibility: hidden;
+}
