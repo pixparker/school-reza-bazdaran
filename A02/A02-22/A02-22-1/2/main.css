@@ -26,3 +26,8 @@
 .visiblity:active {
 	visibility: hidden;
 }
+
+
+span{
+	color: rgb(45, 45, 169);
+}
