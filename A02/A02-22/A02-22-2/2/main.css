@@ -1,0 +1,129 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.background {
+	background: linear-gradient(#03bfbb, #fb354d);
+	padding: 80px;
+	margin: 0px;
+	justify-content: center;
+}
+.head {
+	box-sizing: border-box;
+	border: solid 1px white;
+	height: 400px;
+}
+.main {
+	margin-top: 100px;
+	box-sizing: border-box;
+	border: solid 1px white;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: end;
+}
+
+.foot {
+	margin-top: 100px;
+	box-sizing: border-box;
+	border: solid 1px white;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.head .box1 {
+	background-image: url(images/sea.jpg);
+	background-position: top;
+	background-attachment: fixed;
+	height: 100px;
+	width: 86%;
+	border: solid 1px white;
+}
+
+.head .box2 {
+	background-image: url(images/sea.jpg);
+	background-position: top;
+	background-attachment: fixed;
+	margin: 20px auto;
+	height: 50px;
+	width: 60%;
+	border: solid 1px white;
+}
+
+.head .box3 {
+	background-image: url(images/sea.jpg);
+	background-position: top;
+	background-attachment: fixed;
+	margin: 20px auto;
+	height: 180px;
+	width: 80%;
+	border: solid 1px white;
+}
+
+.main .box1 {
+	box-sizing: border-box;
+	background-image: url(images/boat.jpg);
+	background-position: top;
+	background-attachment: fixed;
+	height: 50%;
+	width: 86%;
+	border: solid 1px white;
+	margin: 5px;
+}
+
+.main .box2 {
+	background-image: url(images/boat.jpg);
+	background-position: top;
+	background-attachment: fixed;
+	height: 98%;
+	width: 86%;
+	border: solid 1px white;
+	margin: 5px;
+}
+.main .box3 {
+	background-image: url(images/boat.jpg);
+	background-position: top;
+	background-attachment: fixed;
+	height: 70%;
+	width: 86%;
+	border: solid 1px white;
+	margin: 5px;
+}
+
+.foot .box1 {
+	background-image: url(images/cat.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 80%;
+	width: 250px;
+	border: solid 1px white;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cat-text {
+	font-size: 50px;
+	color: white;
+}
+.dog-text {
+	font-size: 50px;
+	color: red;
+	display: none;
+}
+
+.foot .box1:hover {
+	background-image: url(images/dog.jpg);
+	.cat-text {
+		display: none;
+		color: red;
+	}
+
+	.dog-text {
+		display: block;
+	}
+}
