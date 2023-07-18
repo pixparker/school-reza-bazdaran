@@ -1,0 +1,44 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+.container {
+	background: linear-gradient(#0abebc, #024f97);
+	height: 100vh;
+	padding: 50px;
+	margin: 0px;
+}
+.navbar li a {
+	text-decoration: none;
+	color: black;
+}
+.navbar li {
+	margin: 0px 50px 0px 0px;
+}
+
+.navbar {
+	height: 35px;
+	background-color: aliceblue;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+.css-box {
+	border: solid 2px white;
+}
+.css-box .css-title {
+	color: white;
+	font-weight: 800;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.css-box .css-text {
+	line-height: 25px;
+	font-weight: 200;
+	font-size: 20px;
+	padding: 60px 50px 0px;
+	text-align: justify;
+}
