@@ -1,0 +1,41 @@
+span {
+	color: red;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box {
+	border: solid 1px #000;
+	width: 200px;
+	height: 200px;
+}
+
+.box1 {
+	background-color: lightblue;
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	z-index: 1;
+}
+
+.box2 {
+	background-color: lightgreen;
+	position: absolute;
+	position: absolute;
+	left: 230px;
+	top: 230px;
+	z-index: 2;
+}
+
+.box3 {
+	background-color: lightsalmon;
+	position: absolute;
+	position: absolute;
+	left: 260px;
+	top: 260px;
+	z-index: 3;
+}
