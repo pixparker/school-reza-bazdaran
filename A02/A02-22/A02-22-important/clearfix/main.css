@@ -1,0 +1,34 @@
+.cat-box,
+.dog-box {
+	margin: 100px;
+}
+
+.cat-box {
+	background-color: #faebd7;
+	border: solid 2px #000;
+}
+
+.dog-box {
+	background-color: #7ceaf1;
+	border: solid 2px #000;
+}
+
+.cat-box .cat-text {
+	float: left;
+	width: 80%;
+}
+
+.cat-box .cat-image {
+	width: 20%;
+	float: right;
+}
+
+.dog-box .dog-text {
+	float: right;
+	width: 80%;
+}
+
+.dog-box .dog-image {
+	width: 20%;
+	float: left;
+}
