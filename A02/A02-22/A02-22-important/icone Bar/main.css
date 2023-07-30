@@ -1,0 +1,48 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 20px;
+}
+.material-symbols-outlined {
+	font-size: 30px;
+	margin: 10px 30px;
+}
+
+.side-icon-bar {
+	color: white;
+	background-color: #555555;
+	display: inline-block;
+}
+.side-icons.home {
+	background-color: #09044d;
+}
+
+.side-icons:hover {
+	background-color: #09044d;
+	cursor: default;
+}
+
+.nav-icons {
+	width: 20%;
+	text-align: center;
+}
+
+.nav-icon-bar {
+	margin-top: 200px;
+	display: flex;
+	background-color: #555555;
+	color: white;
+}
+
+.nav-icons.home {
+	background-color: #09044d;
+}
+
+.nav-icons:hover {
+	background-color: #09044d;
+	cursor: default;
+}
