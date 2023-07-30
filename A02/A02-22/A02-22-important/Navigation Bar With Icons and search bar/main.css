@@ -1,0 +1,36 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 10px;
+}
+
+.navbar {
+	position: relative;
+	background-color: #0c0036;
+	color: white;
+	display: flex;
+	align-items: center;
+    
+}
+
+.btn {
+    padding: 15px;
+    cursor: default;
+}
+.fa-solid {
+	margin-right: 5px;
+}
+.search-bar {
+	padding: 5px;
+    height: 30px;
+	position: absolute;
+	right: 10px;
+}
+
+.btn:hover {
+	background-color: #2196f3;
+}
