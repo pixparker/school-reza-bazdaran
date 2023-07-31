@@ -12,23 +12,23 @@
 	position: relative;
 	background-color: #0c0036;
 	color: white;
-	display: flex;
 	align-items: center;
-    
 }
 
 .btn {
-    padding: 15px;
-    cursor: default;
+	padding: 15px;
+	cursor: default;
+	float: left;
 }
 .fa-solid {
 	margin-right: 5px;
 }
 .search-bar {
 	padding: 5px;
-    height: 30px;
+	height: 30px;
 	position: absolute;
 	right: 10px;
+	top: 9px;
 }
 
 .btn:hover {
