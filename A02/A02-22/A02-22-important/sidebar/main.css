@@ -1,0 +1,22 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.sidebar {
+	background-color: #2b2a2a;
+	width: 15%;
+	height: 100vh;
+	color: white;
+	font-size: 1.5rem;
+}
+
+.sidebar .btn {
+	padding: 20px;
+	cursor: default;
+}
+
+.sidebar .btn:hover {
+	background-color: #2144a7;
+}
