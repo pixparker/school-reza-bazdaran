@@ -1,0 +1,40 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.main {
+	float: right;
+	width: 90%;
+}
+
+.side-nav {
+	float: left;
+	width: 10%;
+	background-color: #999999;
+	height: 100vh;
+}
+
+.side-nav .btn {
+	padding: 10px;
+	color: white;
+	font-size: 1.5em;
+	cursor: default;
+}
+
+.side-nav .btn:hover {
+	background-color: rgb(128, 150, 142);
+}
+
+.main .html-title {
+	text-align: center;
+	margin: 40px 0px auto;
+}
+.main .html-text p {
+	font-size: 1.3em;
+	line-height: 1.3em;
+	text-align: justify;
+	padding: 60px;
+}
