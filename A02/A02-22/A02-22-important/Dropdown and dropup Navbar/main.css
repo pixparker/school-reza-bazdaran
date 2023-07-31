@@ -3,13 +3,12 @@
 	list-style: none;
 	background-color: rgb(0, 0, 0);
 	height: 5vh;
-	display: flex;
 	padding-left: 20px;
 }
 .dropdown-navbar li {
 	display: inline-block;
 	margin-right: 50px;
-	padding: 15px 10px;
+	padding: 13px 10px;
 }
 
 .dropdown-navbar li a {
@@ -33,13 +32,10 @@
 	height: 30px;
 	width: 50px;
 	display: inline-block;
-	padding: 10px;
+	padding: 0px 10px 15px;
 	color: white;
 	background-color: #3397de;
 	user-select: none;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 .dropup {
