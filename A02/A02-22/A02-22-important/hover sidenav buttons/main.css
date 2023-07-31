@@ -35,13 +35,13 @@ p.html-text {
 	border-radius: 0px 5px 5px 0px;
 	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 	color: white;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+
 }
 
 .sidenav-btn p {
 	display: none;
+	text-align: center;
+	padding-top: 15px;
 }
 
 .sidenav-btn:hover {
