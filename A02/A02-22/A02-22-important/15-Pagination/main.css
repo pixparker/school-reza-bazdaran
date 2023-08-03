@@ -1,0 +1,46 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.container {
+	background: linear-gradient(#7e8180, #4f9f9d 75%, #091918);
+	height: 100vh;
+	position: relative;
+	/* text-align: center; */
+}
+
+.pagination-box {
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: inline-block;
+	background-color: #838383;
+}
+
+.pagination-box .page-num,
+.page-arrow {
+	float: left;
+	padding: 5px 15px 7px 15px;
+}
+
+.page-active {
+	background-color: #115391;
+    color: white;
+}
+
+.page-active:hover {
+	background-color: #115391 !important;
+}
+
+.pagination-box .page-num:hover {
+	background-color: #7d7d7d;
+	cursor: pointer;
+}
+
+.pagination-box .page-arrow:hover {
+	background-color: #645f5f;
+	cursor: pointer;
+}
