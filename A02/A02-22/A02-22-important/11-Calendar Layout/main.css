@@ -1,0 +1,83 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.container {
+	margin: 0px 10px;
+}
+
+h1.title {
+	text-align: center;
+	margin: 30px auto;
+}
+
+.cal-head {
+	height: 160px;
+	background-color: #0c3581;
+	position: relative;
+}
+
+.cal-month,
+.cal-year {
+	color: white;
+	text-align: center;
+}
+
+.cal-month {
+	font-size: 1.2em;
+}
+.cal-head-text {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.left-arrow {
+	margin-left: 20px;
+	color: white;
+	font-size: 2em;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.right-arrow {
+	margin-right: 20px;
+	color: white;
+	font-size: 2em;
+	position: absolute;
+	top: 50%;
+	right: 0%;
+	transform: translateY(-50%);
+}
+.cal-days-name {
+	height: 40px;
+	background-color: #dddddd;
+}
+
+.cal-days-name p {
+	width: 14.2857%;
+	float: left;
+	text-align: center;
+	margin-top: 12px;
+}
+
+.cal-days-num {
+	background-color: #eeeeee;
+	height: 150px;
+}
+
+.cal-days-num p {
+	width: 14.2857%;
+	float: left;
+	text-align: center;
+	padding: 5px;
+}
+
+.today {
+	background-color: #0c3581;
+    padding: 5px;
+	color: white;
+}
