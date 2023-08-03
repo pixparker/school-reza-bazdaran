@@ -1,0 +1,82 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.container {
+	background: linear-gradient(#2c3f51, #4ca1b0);
+	padding-top: 40px;
+}
+.main {
+	width: 50%;
+	margin: 0px auto;
+}
+
+h1.wellcome {
+	font-size: 2.5em;
+}
+
+.brake {
+	background-color: white;
+	height: 2px;
+	margin: 15px 0px;
+}
+
+.title {
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: 600;
+	margin-bottom: 50px;
+}
+
+.images-box {
+	background-color: #fff;
+	position: relative;
+}
+
+.horse-pic {
+	width: 100%;
+}
+
+.image1 {
+	float: left;
+	width: 32%;
+	border: solid 7px #fff;
+	position: relative;
+	top: -10px;
+	margin-right: 1%;
+}
+
+.image2 {
+	float: left;
+	width: 32%;
+	border: solid 7px #fff;
+	position: relative;
+	top: -10px;
+	margin-right: 1%;
+}
+
+.image3 {
+	float: left;
+	width: 32%;
+	border: solid 7px #fff;
+	position: relative;
+	top: -10px;
+}
+
+.image h3 {
+	margin: 10px 0px;
+}
+
+.image p {
+}
+
+.lion-pic {
+	border: solid 7px #fff;
+	width: 100%;
+}
+.image4 h3 {
+	margin: 15px 0px;
+}
