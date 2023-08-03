@@ -1,0 +1,44 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.background {
+	background: linear-gradient(#0b1125, #21384d);
+	/* height: 100vh; */
+	padding: 50px 10px;
+}
+
+.title {
+	color: white;
+	text-align: center;
+}
+
+.desc {
+	color: white;
+	text-align: center;
+	margin: 20px;
+}
+.header-sticky {
+	background-color: white;
+	text-align: center;
+	height: 90px;
+	position: sticky;
+	top: 0px;
+}
+
+.header-sticky p {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 30px;
+	display: inline-block;
+}
+
+.text p {
+	line-height: 30px;
+	color: white;
+	text-align: justify;
+	margin-bottom: 15px;
+}
