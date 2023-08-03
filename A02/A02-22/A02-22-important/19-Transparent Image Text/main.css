@@ -1,0 +1,40 @@
+* {
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.container {
+	background: linear-gradient(black, #414141);
+	height: 100vh;
+	text-align: center;
+	padding-top: 200px;
+}
+.main {
+	width: 50%;
+	display: inline-block;
+}
+
+.image-text {
+	background-color: rgba(254, 254, 254, 0.453);
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+}
+
+.cat-image {
+	position: relative;
+	background-image: url(images/cat.jpg);
+	height: 450px;
+	background-position: center;
+	background-size: cover;
+}
+
+h1.image-title {
+	color: white;
+	margin: 20px;
+}
+
+.image-desc {
+	text-align: left;
+	margin: 20px;
+}
