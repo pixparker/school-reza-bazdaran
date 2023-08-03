@@ -1,0 +1,12 @@
+.container {
+	position: relative;
+}
+
+.cat-image {
+	width: 150px;
+}
+
+.image-box {
+	position: sticky;
+	top: 0px;
+}
