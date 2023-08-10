@@ -13,6 +13,7 @@
 	margin: 0px;
 	box-sizing: border-box;
 	font-family: dana;
+	direction: rtl;
 }
 
 .clearfix {
@@ -279,9 +280,10 @@ i.fa-solid.fa-magnifying-glass {
 
 .videoes {
 	height: 500px;
-	background: linear-gradient(#616161,#2C2C2C);
+	background: linear-gradient(#616161, #2c2c2c);
 	text-align: center;
 	padding: 50px;
+	margin-bottom: 20px;
 }
 .video-box {
 	display: inline-block;
@@ -329,5 +331,54 @@ i.fa-solid.fa-magnifying-glass {
 	width: 100%;
 }
 
+.about {
+	margin: 20px auto 70px;
+	width: 80%;
+	direction: rtl;
+}
 
+.about .about-image {
+	width: 20%;
+	border-radius: 20px;
+	float: right;
+}
+.about-text {
+	float: left;
+	width: 78%;
+	margin-right: 2%;
+}
 
+.about-title p {
+	font-family: dana-fat;
+	font-size: 1.2em;
+	line-height: 50px;
+}
+
+.about-text .about-desc p {
+	color: #7a7a7a;
+	font-size: 18px;
+	text-align: justify;
+}
+
+.about .about-btn {
+	margin-top: 20px;
+	display: inline-block;
+	background-color: #ec2828;
+	padding: 7px 25px;
+	color: white;
+	font-size: 20px;
+	border-radius: 15px;
+}
+
+.copyright {
+	background-color: #5b5b5b;
+	height: 55px;
+	text-align: center;
+	color: #a8abad;
+	padding-top: 1%;
+}
+
+.copyright p span {
+	font-family: dana-fat;
+	color: red;
+}
