@@ -27,8 +27,19 @@ a {
 }
 
 .header {
-  padding: 20px;
+ 
+  padding: 20px 20px 50px 20px;
+  background-color: #ffffff;
+  z-index: 1000;
+  position: relative;
+  top: 0px;
 }
+
+.header:out-of-range{
+  position: sticky;
+  top: 0px;
+}
+
 i.fa-solid.fa-cart-shopping {
   color: white;
 }
