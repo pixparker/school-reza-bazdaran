@@ -1,7 +1,48 @@
-body{
-  background: linear-gradient(#4DCBC2,#528189);
-  height: 100vh;
-  box-sizing: border-box;
-  margin: 0px;
+body {
+	background: linear-gradient(#4dcbc2, #528189);
+	height: 100vh;
+	box-sizing: border-box;
+	margin: 0px;
+}
+.container {
+	height: 100vh;
 }
 
+.tooltop-triger {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	cursor: default;
+	background-color: black;
+	position: relative;
+	top: 50%;
+	left: 50%;
+}
+
+.tooltip-message {
+	position: absolute;
+	bottom: 120%;
+	left: -250%;
+	display: none;
+	width: 300px;
+	height: 150px;
+	background-color: #333333;
+	border-radius: 10px;
+	padding: 10px;
+	color: white;
+}
+
+.tooltop-triger:hover .tooltip-message {
+	display: block;
+}
+
+.tooltip-message::after {
+	content: "";
+	position: absolute;
+	border-width: 8px;
+	border-style: solid;
+	border-color: #333 transparent transparent transparent;
+	bottom: -9.5%;
+	left: 50%;
+	transform: translateX(-50%);
+}
