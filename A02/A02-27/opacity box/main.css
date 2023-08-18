@@ -1,0 +1,29 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.container {
+	box-sizing: border-box;
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+
+.box {
+	width: 35%;
+	height: fit-content;
+	color: white;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(218, 207, 207, 0.212);
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.box .title {
+	text-align: center;
+	padding: 10px;
+}
