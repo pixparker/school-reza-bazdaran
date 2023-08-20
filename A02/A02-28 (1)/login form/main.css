@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+}
+
+.container {
+	background-image: url(images/background.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.form-box {
+	display: inline-block;
+	width: 380px;
+	height: 450px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: solid 1px #9f66a8;
+	border-radius: 10px;
+	backdrop-filter: blur(8px);
+	padding-top: 30px;
+}
+
+form {
+	padding: 25px;
+}
+
+.form-box h1 {
+	text-align: center;
+}
+.data-input {
+	background-color: rgba(255, 255, 255, 0);
+	border: solid 1px #9f66a8;
+	width: 90%;
+	height: 40px;
+	border-radius: 20px;
+	margin: 15px;
+	padding: 15px;
+}
+.data-input::placeholder {
+	color: white;
+}
+.input-container {
+	position: relative;
+}
+
+.icon {
+	position: absolute;
+	top: 40%;
+	right: 10%;
+}
+
+input[type="checkbox"] {
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+a[href="#forget"] {
+	margin-top: 15px;
+	float: right;
+}
+input[type="submit"] {
+	display: block;
+	color: black;
+	background-color: white;
+	padding-bottom: 25px;
+}
+.create-account {
+	margin-top: 25px;
+	text-align: center;
+}
+
+a[href="#register"] {
+	display: inline-block;
+	color: blue;
+	font-weight: bold;
+}
