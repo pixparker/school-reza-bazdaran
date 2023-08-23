@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>A02-28 Survey Form</title>
+		<link rel="stylesheet" href="main.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="title">Survey Form</h1>
+			<div class="form-box">
+				<form action="">
+					<label class="label-input" for="name">Name</label>
+					<input id="name" class="input-data" type="text" placeholder="Enter Your Name" />
+					<label class="label-input" for="email">Email</label>
+					<input id="email" class="input-data" type="email" placeholder="Enter Your Email" />
+					<label class="label-input" for="age">Age</label>
+					<input
+						id="age"
+						class="input-data"
+						type="number"
+						max="90"
+						min="12"
+						placeholder="Enter Your Email"
+					/>
+
+					<label class="label-input" for="option">Which option best describe you ? </label>
+					<select class="input-data" name="" id="option">
+						<option class="input-data">School</option>
+						<option selected>Student</option>
+						<option>Fun</option>
+						<option>Book</option>
+						<option>Sport</option>
+					</select>
+
+					<p>Would you recommend W3Schools to a friend ?</p>
+					<div class="input-radio">
+						<input id="yes" type="radio" name="radio-option" id="radio" /><label
+							class="label-radio"
+							for="yes"
+							>Yes</label
+						>
+					</div>
+					<div class="input-radio">
+						<input id="no" type="radio" name="radio-option" id="radio" /><label
+							class="label-radio"
+							for="no"
+							>No</label
+						>
+					</div>
+					<div class="input-radio">
+						<input id="maybe" type="radio" name="radio-option" id="radio" /><label
+							class="label-radio"
+							for="maybe"
+							>Maybe</label
+						>
+					</div>
+
+					<p>Languages and Frameworks know (check all that apply)</p>
+					<div class="check-box-all">
+						<div class="check-box">
+							<input type="checkbox" name="" id="c" />
+							<label class="label-check" for="c">C</label>
+						</div>
+
+						<div class="check-box">
+							<input type="checkbox" name="" id="cplus" />
+							<label class="label-check" for="cplus">C++</label>
+						</div>
+
+						<div class="check-box">
+							<input type="checkbox" name="" id="csharp" />
+							<label class="label-check" for="csharp">C#</label>
+						</div>
+
+						<div class="check-box">
+							<input type="checkbox" name="" id="java" />
+							<label class="label-check" for="java">Java</label>
+						</div>
+
+						<div class="check-box">
+							<input type="checkbox" name="" id="python" />
+							<label class="label-check" for="python">Python</label>
+						</div>
+
+						<div class="check-box">
+							<input type="checkbox" name="" id="javascript" />
+							<label class="label-check" for="javascript">JavaScript</label>
+						</div>
+
+						<div class="check-box">
+							<input type="checkbox" name="" id="react" />
+							<label class="label-check" for="react">React</label>
+						</div>
+
+						<div class="check-box">
+							<input type="checkbox" name="" id="angular" />
+							<label class="label-check" for="angular">Angular</label>
+						</div>
+
+						<div class="check-box">
+							<input type="checkbox" name="" id="django" />
+							<label class="label-check" for="django">Django</label>
+						</div>
+
+						<div class="check-box">
+							<input type="checkbox" name="" id="spring" />
+							<label class="label-check" for="spring">Spring</label>
+						</div>
+					</div>
+
+					<label class="label-input" for="comment">Any comment for suggestion ?</label>
+					<textarea name="" id="comment" cols="" rows="5"></textarea>
+
+					<input class="submit" type="submit" name="" id="submit" />
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
