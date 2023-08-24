@@ -1,0 +1,47 @@
+@font-face {
+	font-family: "IranYekan";
+	src: url(fonts/iranyekanwebregular.woff2) format(woff2);
+}
+:root {
+	--font-family: IranYekan, sans-serif;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: var(--font-family);
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.header-top-img {
+	width: 100vw;
+}
+
+.header-content {
+	padding: 1em;
+}
+
+a.portfolio {
+	color: black !important;
+	font-size: 1.4em !important;
+	float: left;
+}
+
+.ver-line1 {
+	width: 0.1em;
+	height: 1.8em;
+	background-color: lightgray;
+	margin-left: 1em;
+	float: left;
+}
+
+a.register {
+    border: solid 2px #E5E5EA;
+    border-radius: 10px;
+    padding: 0.6em 0.8em;
+	float: left;
+	margin-left: 1.5em;
+    font-size: 0.8em;
+}
