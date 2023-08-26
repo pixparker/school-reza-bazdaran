@@ -216,6 +216,10 @@ a.register > * {
 
 /* TOP-CONTAINER */
 .top-container {
+  width: 78%;
+  height: 500px;
+  background-color: red;
+  margin: 0px auto;
 }
 
 /* TOP-CONTAINER */
