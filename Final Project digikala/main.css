@@ -116,6 +116,7 @@ a.register > * {
   height: 30px;
   padding: 10px;
   font-size: 0.8em;
+  margin-top: 15px;
 }
 
 .location {
@@ -186,19 +187,18 @@ a.register > * {
 
 /* SLIDER Start */
 .slider {
-  margin-top: 30px;
+  margin-top: 20px;
   position: relative;
   max-width: 100vw;
 }
 .slider-img {
   width: 100%;
-
   background-color: #000;
 }
 
 .slider-btn {
   position: absolute;
-  bottom: 10px;
+  bottom: 30px;
   background-color: white;
   color: black;
   border-radius: 50%;
@@ -222,7 +222,7 @@ a.register > * {
 /* TOP-MAIN */
 .top-main {
   width: 78%;
-  height: 500px;
+  height: 5000px;
   border: dashed 2px green;
   margin: 0px auto;
 }
@@ -260,12 +260,91 @@ a.register > * {
   text-align: center;
 }
 
-.product-category {
-  
+.amazing-suggest-box {
+  background-color: #ef3a50;
+  width: 100%;
+
+  padding: 20px 30px;
+  border-radius: 1.5em;
+}
+.amazing-suggest-items {
+  height: 280px;
+}
+.viewall-link {
+  float: right;
 }
 
-.title-h3{
+.amazing-item {
+  display: inline-block;
+  padding: 5px;
+  background-color: white;
+  width: 14.5%;
+  height: 100%;
+}
+.amazing-item-first {
+  border-radius: 0px 10px 10px 0px !important;
+}
+
+.amazing-suggest-image {
+  width: 100%;
+}
+
+.amazing-suggest-ad-image {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 10px;
+}
+
+.viewall-link {
+  color: white;
+}
+
+.offer-percent {
+  background-color: #ef3a50;
+  border-radius: 10px;
+  padding: 2px 8px;
+  color: white;
+  font-size: 0.6em;
+  margin-left: 20px;
+}
+
+.price-old {
+  opacity: 0.5;
+  font-size: 0.8em;
+  margin: 20px 30px;
+  text-align: left;
+  text-decoration: line-through;
+}
+
+/* Category Start */
+.product-category {
+  margin: 20px;
   text-align: center;
 }
+
+.title-h3 {
+  text-align: center;
+  margin: 2em auto;
+  font-weight: 500;
+}
+.category-link {
+  width: 13%;
+  display: inline-block;
+  text-align: center;
+  margin: 10px auto;
+  margin-bottom: 30px;
+}
+.category-image {
+  width: 100px;
+  height: 100px;
+  margin: 0px auto;
+}
+
+.category-image-title {
+  text-align: center;
+  font-size: 0.8em;
+}
+/* Categort End */
 
 /* TOP-MAIN */
