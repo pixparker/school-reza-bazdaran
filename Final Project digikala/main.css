@@ -229,6 +229,7 @@ a.register > * {
 /* Services */
 .services-bar {
   text-align: center;
+  margin-bottom: 20px;
 }
 .services-bar-items img {
   width: 5em;
@@ -447,15 +448,11 @@ img.amazing-market-product {
 }
 /* Categort End */
 
-
-
-
 /* Offer Collect Group2 */
 
-.offer-collect-group2{
-text-align: center;
+.offer-collect-group2 {
+  text-align: center;
 }
-
 
 .offer-collect-group2 a {
   float: right;
@@ -466,12 +463,6 @@ text-align: center;
   width: 100%;
   border-radius: 20px;
 }
-
-
-
-
-
-
 
 /* Suggest Start */
 .product-suggest {
@@ -503,10 +494,5 @@ text-align: center;
   font-size: 0.8em;
 }
 /* Suggest End */
-
-
-
-
-
 
 /* TOP-MAIN */
