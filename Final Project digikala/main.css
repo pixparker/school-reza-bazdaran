@@ -329,7 +329,7 @@ a.register > * {
 
 .amazing-market-box-right {
   float: right;
-  width: 50%;
+  width: 40%;
 
   position: relative;
 }
@@ -367,15 +367,13 @@ a.register > * {
 
 .amazing-market-box-left {
   float: left;
-  width: 50%;
+  width: 60%;
   padding-top: 15px;
-  
 }
 
-
-.amazing-market-product-container{
-position: relative;
-width: 70px;
+.amazing-market-product-container {
+  position: relative;
+  width: 70px;
   height: 70px;
   float: right;
   margin: 0px 10px;
@@ -383,48 +381,40 @@ width: 70px;
 img.amazing-market-product {
   width: 70px;
   height: 70px;
-  border-radius: 50%; 
-  
-  
-  
-  
+  border-radius: 50%;
 }
 
-
-
-.offer-percent3{
+.offer-percent3 {
   position: absolute !important;
   bottom: 0px !important;
   right: 0px !important;
 }
+.amazing-market-more {
+  background-color: #ffffff;
+  width: 160px;
+  height: 50px;
+  border-radius: 25px;
+  padding-top: 13px;
+  color: #39ae00;
+  float: right;
+  text-align: center;
+  margin-top: 15px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Offer Collect Group1 */
+.offer-collect-group1 {
+  text-align: center;
+  padding-bottom: 250px;
+}
+.offer-collect-group1 a {
+  float: right;
+  width: 24%;
+  margin: 0.5%;
+}
+.offer-collect-group1 a img {
+  width: 100%;
+  border-radius: 20px;
+}
 
 /* Category Start */
 .product-category {
@@ -436,6 +426,7 @@ img.amazing-market-product {
   text-align: center;
   margin: 2em auto;
   font-weight: 500;
+  font-size: 1.4em;
 }
 .category-link {
   width: 13%;
@@ -456,7 +447,66 @@ img.amazing-market-product {
 }
 /* Categort End */
 
+
+
+
+/* Offer Collect Group2 */
+
+.offer-collect-group2{
+text-align: center;
+}
+
+
+.offer-collect-group2 a {
+  float: right;
+  width: 49%;
+  margin: 0.5%;
+}
+.offer-collect-group2 a img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+/* Suggest Start */
+.product-suggest {
+  margin: 20px;
+  text-align: center;
+}
+
+.title-h3 {
+  text-align: center;
+  margin: 2em auto;
+  font-weight: 500;
+  font-size: 1.4em;
+}
+.suggest-link {
+  width: 13%;
+  display: inline-block;
+  text-align: center;
+  margin: 10px auto;
+  margin-bottom: 30px;
+}
+.suggest-image {
+  width: 100px;
+  height: 100px;
+  margin: 0px auto;
+}
+
+.suggest-image-title {
+  text-align: center;
+  font-size: 0.8em;
+}
+/* Suggest End */
+
+
+
+
+
+
 /* TOP-MAIN */
-
-
-
