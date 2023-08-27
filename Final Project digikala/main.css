@@ -226,6 +226,7 @@ a.register > * {
   border: dashed 2px green;
   margin: 0px auto;
 }
+/* Services */
 .services-bar {
   text-align: center;
 }
@@ -259,7 +260,7 @@ a.register > * {
   opacity: 0.6;
   text-align: center;
 }
-
+/* Amazing Suggest */
 .amazing-suggest-box {
   background-color: #ef3a50;
   width: 100%;
@@ -317,6 +318,114 @@ a.register > * {
   text-decoration: line-through;
 }
 
+/* Amazing Market */
+
+.amazing-market-box {
+  height: 110px;
+  background-color: #eef1ef;
+  border-radius: 30px;
+  margin: 10px 0px 20px 0px;
+}
+
+.amazing-market-box-right {
+  float: right;
+  width: 50%;
+
+  position: relative;
+}
+
+.amazing-market-box-right a {
+  position: relative;
+  display: inline-block;
+  height: 100px;
+  width: 100%;
+}
+
+.offer-percent2 {
+  background-color: #39ae00;
+  border-radius: 20px;
+  padding: 3px 10px;
+  color: white;
+  font-size: 0.9em;
+}
+
+.amazing-market-box-right a img:first-child {
+  width: 10%;
+}
+.amazing-market-box-right a img:nth-child(2) {
+  width: 40%;
+  position: relative;
+  right: -13%;
+}
+.amazing-market-box-right a > * {
+  position: relative;
+  float: right;
+  top: 50%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+}
+
+.amazing-market-box-left {
+  float: left;
+  width: 50%;
+  padding-top: 15px;
+  
+}
+
+
+.amazing-market-product-container{
+position: relative;
+width: 70px;
+  height: 70px;
+  float: right;
+  margin: 0px 10px;
+}
+img.amazing-market-product {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%; 
+  
+  
+  
+  
+}
+
+
+
+.offer-percent3{
+  position: absolute !important;
+  bottom: 0px !important;
+  right: 0px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Category Start */
 .product-category {
   margin: 20px;
@@ -348,3 +457,6 @@ a.register > * {
 /* Categort End */
 
 /* TOP-MAIN */
+
+
+
