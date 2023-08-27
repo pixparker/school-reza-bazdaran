@@ -225,21 +225,47 @@ a.register > * {
   height: 500px;
   border: dashed 2px green;
   margin: 0px auto;
-
-  .services-bar-items img {
-    width: 5em;
-    display: block;
-    margin: 0px auto;
-  }
-
-  .services-bar-items a {
-    font-size: 0.8em;
-    display: block;
-    
-  }
 }
+.services-bar {
+  text-align: center;
+}
+.services-bar-items img {
+  width: 5em;
+  display: block;
+  margin: 10px auto;
+}
+
+.services-bar-items a {
+  font-size: 0.8em;
+  display: block;
+}
+
 .services-bar-items li {
   display: inline-block;
-  margin: 10px 30px;
+  margin: 10px 0px 0px 80px;
 }
+
+.service-more {
+  margin-left: 0px !important;
+}
+.fi-xwsuxl-ellipsis {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: #f1f2f4;
+  display: block;
+  padding-top: 12px;
+  font-size: 1.5em;
+  opacity: 0.6;
+  text-align: center;
+}
+
+.product-category {
+  
+}
+
+.title-h3{
+  text-align: center;
+}
+
 /* TOP-MAIN */
