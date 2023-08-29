@@ -467,6 +467,7 @@ img.amazing-market-product {
 /* Suggest Start */
 .product-suggest {
   margin: 20px;
+  /* background-color: red; */
   text-align: center;
 }
 
@@ -476,12 +477,32 @@ img.amazing-market-product {
   font-weight: 500;
   font-size: 1.4em;
 }
+
+.suggest-box {
+  border: solid 1px #e5e5e5;
+  border-radius: 20px;
+}
+
+.suggest-box-top {
+  border-bottom: solid 1px #e5e5e5;
+}
+
+.suggest-box-top a:last-child {
+  border: none !important;
+}
+
+.suggest-box-bottom a:last-child {
+  border: none !important;
+}
+
 .suggest-link {
-  width: 13%;
+  width: 13.91%;
   display: inline-block;
+  border-left: solid 1px #e5e5e5;
   text-align: center;
-  margin: 10px auto;
-  margin-bottom: 30px;
+  margin: 0px auto;
+  height: 150px;
+  padding-top: 20px;
 }
 .suggest-image {
   width: 100px;
@@ -494,5 +515,63 @@ img.amazing-market-product {
   font-size: 0.8em;
 }
 /* Suggest End */
+
+/* Most-Popular Start */
+
+.most-popular-container {
+  border: solid 1px #e5e5e5;
+  border-radius: 20px;
+  padding-top:40px;
+  text-align: center;
+  
+}
+
+.most-popular-title i {
+  color: rgb(188, 188, 7) !important;
+}
+
+.most-popular-items {
+  margin-top: 25px;
+  text-align: center;
+  height: 200px;
+}
+
+.most-popular-item {
+  width: 11%;
+  float: right;
+}
+
+.most-popular-item > img {
+  height: 120px;
+  width: 120px;
+}
+
+/* Most-Popular End */
+
+
+
+
+
+
+
+/* Offer Collect Group3 */
+
+.offer-collect-group3 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.offer-collect-group3 a {
+  float: right;
+  width: 49%;
+  margin: 0.5%;
+}
+.offer-collect-group3 a img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+
+
 
 /* TOP-MAIN */
