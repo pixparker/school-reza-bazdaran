@@ -521,9 +521,8 @@ img.amazing-market-product {
 .most-popular-container {
   border: solid 1px #e5e5e5;
   border-radius: 20px;
-  padding-top:40px;
+  padding-top: 40px;
   text-align: center;
-  
 }
 
 .most-popular-title i {
@@ -548,12 +547,6 @@ img.amazing-market-product {
 
 /* Most-Popular End */
 
-
-
-
-
-
-
 /* Offer Collect Group3 */
 
 .offer-collect-group3 {
@@ -571,7 +564,35 @@ img.amazing-market-product {
   border-radius: 20px;
 }
 
+/* Mobile Start */
 
+.mobile-container {
+  overflow: auto;
+  border: solid 1px #e5e5e5;
+  border-radius: 20px;
+}
 
+.mobile-container > div {
+  float: right;
+  width: 25%;
+  
+}
+.mobile-phone-images,
+.mobile-cover-images,
+.mobile-head-images,
+.mobile-watch-images {
+  width: 100%;
+  text-align: center;
+  border-left: solid;
+}
+.mobile-phone-images > img,
+.mobile-cover-images > img,
+.mobile-head-images > img,
+.mobile-watch-images > img {
+  display: inline-block;
+  width: 40%;
+}
+
+/* Mobile End */
 
 /* TOP-MAIN */
