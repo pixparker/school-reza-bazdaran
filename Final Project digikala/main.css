@@ -223,7 +223,7 @@ a.register > * {
 .top-main {
   width: 78%;
   height: 5000px;
-  border: dashed 2px green;
+  /* border: dashed 2px green; */
   margin: 0px auto;
 }
 /* Services */
@@ -566,31 +566,75 @@ img.amazing-market-product {
 
 /* Mobile Start */
 
+.mobile-phone-title,
+.mobile-cover-title,
+.mobile-head-title,
+.mobile-watch-title {
+  font-size: 1em;
+  padding: 10px 20px;
+}
+.mobile-phone-text,
+.mobile-cover-text,
+.mobile-head-text,
+.mobile-watch-text {
+  font-weight: 100;
+  opacity: 0.7;
+  padding: 0px 20px 20px 0px;
+}
+
 .mobile-container {
   overflow: auto;
   border: solid 1px #e5e5e5;
   border-radius: 20px;
+  
 }
 
-.mobile-container > div {
+
+
+.mobile-container .mobile {
   float: right;
   width: 25%;
+  border: solid 1px #e5e5e5;
   
 }
 .mobile-phone-images,
 .mobile-cover-images,
 .mobile-head-images,
 .mobile-watch-images {
+  float: right;
   width: 100%;
   text-align: center;
-  border-left: solid;
+  
+  
 }
-.mobile-phone-images > img,
-.mobile-cover-images > img,
-.mobile-head-images > img,
-.mobile-watch-images > img {
-  display: inline-block;
-  width: 40%;
+.mobile-phone-images  img,
+.mobile-cover-images  img,
+.mobile-head-images  img,
+.mobile-watch-images  img {
+  
+  width: 70%;
+  
+}
+
+
+.mobile-phone-images  >div,
+.mobile-cover-images  >div,
+.mobile-head-images  >div,
+.mobile-watch-images  >div {
+  float: right;
+  width: 50%;
+  border-left: solid 1px #e5e5e59b;
+}
+
+
+a.view-mobile{
+  color: #19BFD4;
+  font-size: 0.8em;
+  display: block;
+  width: max-content;
+  margin: 15px auto;
+  
+
 }
 
 /* Mobile End */
