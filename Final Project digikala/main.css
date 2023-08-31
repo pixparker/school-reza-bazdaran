@@ -800,17 +800,17 @@ a.view-mobile {
 /* Books Start */
 
 .books {
-  height: 400px;
+  height: 420px;
   width: 100%;
   border-radius: 20px;
-  border: solid 1px black;
+  border: solid 1px #e5e5e5;
 }
 
 .books-grid {
   float: right;
   width: 25%;
   padding: 20px;
-  border: solid 1px green;
+
   height: 100%;
 }
 
@@ -834,17 +834,27 @@ a.view-mobile {
   padding: 10px;
 }
 
-.books-grid .images .image-box:nth-child(odd) {
+.books-grid .images .image-box1,
+.books-grid .images .image-box3 {
   border-left: solid 1px #e5e5e5;
 }
 
-.books-grid .images .image-box:nth-child(1),
-.books-grid .images .image-box:nth-child(2) {
+.books-grid .images .image-box1,
+.books-grid .images .image-box2 {
   border-bottom: solid 1px #e5e5e5;
 }
 
 .books-grid .images .image-box .image {
   width: 100%;
+
+}
+
+a.view-books {
+  color: #19bfd4;
+  font-size: 0.8em;
+  display: block;
+  width: max-content;
+  margin: 20px auto;
 }
 
 /* Books End */
