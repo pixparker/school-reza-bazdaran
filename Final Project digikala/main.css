@@ -938,4 +938,57 @@ a.view-books {
 
 /* Bestselling End */
 
+/* ad */
+.ad,
+.ad img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* Discount Start */
+
+.discount {
+  width: 100%;
+  border-radius: 20px;
+  border: solid 1px #e5e5e5;
+  text-align: center;
+  padding: 20px;
+}
+span.dicount-title {
+  margin: 10px auto;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+.dicount-title i{
+  color: red;
+  font-size: 1.5em;
+  
+}
+
+.discount-table {
+  border-collapse: collapse;
+  border: solid 2px white !important;
+  
+}
+.discount-table td 
+{
+  width: 16.666%;
+  border: solid 1px #e5e5e5;
+  padding: 10px;
+}
+
+.discount-table img {
+  width: 80%;
+}
+.offer-percent-3 {
+  background-color: #ef3a50;
+  border-radius: 10px;
+  padding: 2px 8px;
+  color: white;
+  font-size: 0.9em;
+  margin-left: 20px;
+}
+
+/* Discount End */
+
 /* Bottom-Main End */
