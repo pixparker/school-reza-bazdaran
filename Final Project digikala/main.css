@@ -4,6 +4,10 @@
   font-family: "IranYekan";
   src: url(fonts/iranyekanwebregular.woff2) format(woff2);
 }
+@font-face {
+  font-family: "Neuropol";
+  src: url(fonts/Neuropol.woff2) format(woff2);
+}
 :root {
   --font-family: IranYekan, sans-serif;
 }
@@ -222,8 +226,6 @@ a.register > * {
 /* TOP-MAIN */
 .top-main {
   width: 78%;
-  height: 5000px;
-  /* border: dashed 2px green; */
   margin: 0px auto;
 }
 /* Services */
@@ -586,16 +588,12 @@ img.amazing-market-product {
   overflow: auto;
   border: solid 1px #e5e5e5;
   border-radius: 20px;
-  
 }
-
-
 
 .mobile-container .mobile {
   float: right;
   width: 25%;
   border: solid 1px #e5e5e5;
-  
 }
 .mobile-phone-images,
 .mobile-cover-images,
@@ -604,39 +602,251 @@ img.amazing-market-product {
   float: right;
   width: 100%;
   text-align: center;
-  
-  
 }
-.mobile-phone-images  img,
-.mobile-cover-images  img,
-.mobile-head-images  img,
-.mobile-watch-images  img {
-  
+.mobile-phone-images img,
+.mobile-cover-images img,
+.mobile-head-images img,
+.mobile-watch-images img {
   width: 70%;
-  
 }
 
-
-.mobile-phone-images  >div,
-.mobile-cover-images  >div,
-.mobile-head-images  >div,
-.mobile-watch-images  >div {
+.mobile-phone-images > div,
+.mobile-cover-images > div,
+.mobile-head-images > div,
+.mobile-watch-images > div {
   float: right;
   width: 50%;
   border-left: solid 1px #e5e5e59b;
 }
 
-
-a.view-mobile{
-  color: #19BFD4;
+a.view-mobile {
+  color: #19bfd4;
   font-size: 0.8em;
   display: block;
   width: max-content;
   margin: 15px auto;
-  
-
 }
 
 /* Mobile End */
 
 /* TOP-MAIN */
+
+/* Bottom-Main Start */
+
+.bottom-main {
+  width: 78%;
+  height: 3500px;
+  border: dashed 2px green;
+  margin: 0px auto;
+}
+.digiplus {
+  background-color: #941b80;
+  padding: 20px;
+  color: white;
+  border-radius: 20px;
+  margin: 10px auto;
+}
+
+.digiplus .digiplus-url {
+  font-size: 2em;
+  font-weight: 800;
+  font-family: Neuropol;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.digiplus-slide {
+  float: right;
+  width: 33%;
+  height: 400px;
+  margin: 0% 0.1%;
+}
+
+.digiplus-background {
+  background-image: url(images/plus-widget.png);
+  background-size: cover;
+  background-position: center;
+  height: 80%;
+  position: relative;
+}
+.digiplus-slide2 {
+  color: initial;
+  background-color: white;
+  border-radius: 0px 10px 10px 0px;
+  height: fit-content;
+}
+
+.digiplus-slide3 {
+  color: initial;
+  background-color: white;
+  border-radius: 10px 0px 0px 10px;
+  height: fit-content;
+}
+.digiplus-background .digiplus-reg-btn {
+  border-radius: 10px;
+  height: 15px;
+  width: 30px;
+  border: solid 1px white;
+  font-size: 0.9em;
+  padding: 5px 10px;
+  position: relative;
+  top: 20px;
+  right: 10px;
+}
+.digiplus-slide-top {
+  padding: 20px;
+}
+.digiplus-slide-top i {
+  color: #941b80;
+  float: right;
+}
+
+.digiplus-slide-top span {
+  float: right;
+  margin: 0px 10px;
+}
+
+.digiplus-slide-viewall {
+  float: left;
+  color: #ca56a4;
+  font-size: 0.8em;
+}
+
+.digiplus-images {
+  text-align: center;
+}
+
+.digiplus-images a {
+  float: right;
+  width: 33%;
+}
+.digiplus-images img {
+  width: 100%;
+  margin-top: 20px;
+}
+.digiplus-images span {
+  color: #a63e98;
+  font-size: 0.8em;
+}
+
+/* DigiClub Start */
+.digiclub {
+  background: linear-gradient(to left, #007295, #35a6c8);
+  height: 90px;
+  color: white;
+  border-radius: 20px;
+  margin: 10px auto;
+  padding: 10px;
+  position: relative;
+}
+.digiclub .digiclub-url {
+  font-size: 2em;
+  font-weight: 800;
+  font-family: Neuropol;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: -2%;
+  transform: translate(-50%, -50%);
+}
+.digiclub-right {
+  width: 40%;
+}
+.digiclub-left {
+  width: 60%;
+  height: 100%;
+  float: left;
+}
+.digiclub-left a {
+  float: left;
+  width: 32%;
+  height: 90%;
+
+  overflow: hidden;
+  margin: 0% 0.4%;
+  position: relative;
+  top: 50%;
+  left: 17%;
+  transform: translate(-50%, -50%);
+}
+
+.digiclub-left img {
+  float: left;
+  width: 60.01%;
+  height: 100%;
+}
+
+.digiclub1 {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.digiclub3 {
+  border-radius: 0px 10px 10px 0px;
+}
+.digiclub-left .text {
+  float: right;
+  color: initial;
+  background-color: #ffffff;
+  width: 40%;
+  height: 100%;
+  text-align: center;
+  padding-top: 9.5%;
+  font-size: 0.8em;
+  z-index: 200;
+}
+/* DigiClub End */
+
+/* Books Start */
+
+.books {
+  height: 400px;
+  width: 100%;
+  border-radius: 20px;
+  border: solid 1px black;
+}
+
+.books-grid {
+  float: right;
+  width: 25%;
+  padding: 20px;
+  border: solid 1px green;
+  height: 100%;
+}
+
+.books-grid .title {
+  margin-bottom: 0.5em;
+}
+
+.books-grid .desc {
+  font-weight: 100;
+  opacity: 0.6;
+}
+.books-grid .images {
+  padding: 0px;
+  text-align: center;
+}
+
+.books-grid .images .image-box {
+  width: 50%;
+  height: 50%;
+  float: right;
+  padding: 10px;
+}
+
+.books-grid .images .image-box:nth-child(odd) {
+  border-left: solid 1px #e5e5e5;
+}
+
+.books-grid .images .image-box:nth-child(1),
+.books-grid .images .image-box:nth-child(2) {
+  border-bottom: solid 1px #e5e5e5;
+}
+
+.books-grid .images .image-box .image {
+  width: 100%;
+}
+
+/* Books End */
+
+/* Bottom-Main End */
