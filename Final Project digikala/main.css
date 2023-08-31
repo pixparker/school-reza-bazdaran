@@ -846,7 +846,6 @@ a.view-mobile {
 
 .books-grid .images .image-box .image {
   width: 100%;
-
 }
 
 a.view-books {
@@ -858,5 +857,85 @@ a.view-books {
 }
 
 /* Books End */
+
+/* Bestselling Start */
+
+.bestselling {
+  height: 420px;
+  width: 100%;
+  border-radius: 20px;
+  border: solid 1px #e5e5e5;
+  text-align: center;
+  padding: 20px;
+}
+
+.bestselling-top > p > i {
+  color: #f9a825;
+  font-size: 1.5em;
+}
+
+.bestselling-top > p > span {
+  margin: 0px 10px;
+  font: bold;
+  font-size: 1.3em;
+}
+.bestselling-grid {
+  height: 100%;
+}
+.bestselling-slide {
+  float: right;
+  width: 25%;
+  height: 100%;
+}
+.slide-row {
+  height: 33%;
+}
+
+.slide-row > a {
+  display: block;
+  height: 100%;
+  position: relative;
+}
+
+.slide-row > a > .image-div {
+  width: 20%;
+  float: right;
+  height: 100%;
+  position: relative;
+}
+.slide-row > a > .image-div > img {
+  height: 65%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slide-row > a > i {
+  color: #19bfd3;
+  font-size: 1.5em;
+  float: right;
+  width: 15%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.slide-row > a > span {
+  display: inline-block;
+  font-size: 0.75em;
+  width: 65%;
+  line-height: 2em;
+  text-align: justify;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slide4 .row1 i,
+.slide4 .row2 i,
+.slide4 .row3 i {
+  width: 4%;
+}
+
+/* Bestselling End */
 
 /* Bottom-Main End */
