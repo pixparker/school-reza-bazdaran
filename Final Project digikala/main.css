@@ -636,7 +636,7 @@ a.view-mobile {
 .bottom-main {
   width: 78%;
   height: 3500px;
-  border: dashed 2px green;
+  /* border: dashed 2px green; */
   margin: 0px auto;
 }
 .digiplus {
@@ -773,7 +773,7 @@ a.view-mobile {
 
 .digiclub-left img {
   float: left;
-  width: 60.01%;
+  width: 60%;
   height: 100%;
 }
 
