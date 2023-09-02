@@ -635,7 +635,6 @@ a.view-mobile {
 
 .bottom-main {
   width: 78%;
-  height: 3500px;
   /* border: dashed 2px green; */
   margin: 0px auto;
 }
@@ -959,19 +958,16 @@ span.dicount-title {
   font-size: 1.4em;
   font-weight: 500;
 }
-.dicount-title i{
+.dicount-title i {
   color: red;
   font-size: 1.5em;
-  
 }
 
 .discount-table {
   border-collapse: collapse;
   border: solid 2px white !important;
-  
 }
-.discount-table td 
-{
+.discount-table td {
   width: 16.666%;
   border: solid 1px #e5e5e5;
   padding: 10px;
@@ -991,4 +987,146 @@ span.dicount-title {
 
 /* Discount End */
 
+/* Readings Start */
+
+.readings {
+  padding: 30px;
+}
+
+.reading-bar .title {
+  float: right;
+  margin-right: 20px;
+}
+
+.reading-bar a.more-reading {
+  float: left;
+  margin-left: 20px;
+  color: #6ac3d3;
+  font-size: 0.85em;
+}
+
+.readings-content {
+  margin: 20px auto;
+  width: 100%;
+  text-align: center;
+}
+.readings-box {
+  display: inline-block;
+  width: 24%;
+  height: 11em;
+  margin: 0.25%;
+}
+
+.readings-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0px 0px;
+  display: block;
+}
+
+.reading-image-title {
+  font-size: 0.7em;
+  padding: 15px;
+  border: solid 1px #e5e5e5;
+  border-radius: 0px 0px 10px 10px;
+  text-align: right;
+}
+
+/* Readings End */
+
 /* Bottom-Main End */
+
+/* Footer */
+
+.footer-top {
+  height: 60px;
+}
+
+.footer-top .digilogo {
+  height: 30px;
+  float: right;
+}
+.footer-top .digilogo img {
+  height: 100%;
+  margin-right: 20px;
+}
+
+.footer-top .go-top {
+  float: left;
+  border: solid 1px #e0e0e6;
+  border-radius: 10px;
+  padding: 10px 15px;
+  opacity: 0.6;
+  margin-left: 20px;
+}
+.contact pre {
+  font-size: 0.8em;
+}
+
+.sending-box {
+  padding: 10px;
+  margin: 30px;
+}
+
+.sending-image-box {
+  float: right;
+  width: 20%;
+  text-align: center;
+  font-size: 0.75em;
+}
+
+.sending-image-box img {
+  width: 20%;
+}
+
+/* DigiHelp Start */
+
+.digihelp {
+  padding: 20px;
+  margin: 30px auto;
+}
+
+.digihelp .title-h4 {
+  line-height: 2.5em;
+}
+
+.digihelp-text {
+  font-size: 0.9em;
+  opacity: 0.8;
+  line-height: 2.5em;
+}
+
+.digihelp-col {
+  float: right;
+}
+.digihelp-col1,
+.digihelp-col2,
+.digihelp-col3 {
+  width: 27%;
+}
+.digihelp-col4 {
+  width: 19%;
+}
+
+.social-box {
+  width: 100%;
+  position: relative;
+}
+
+.social-box a {
+  width: 20%;
+  float: right;
+}
+.social-box i.social-icon {
+  opacity: 0.6;
+  font-size: 1.5em;
+}
+
+.social-box svg.social-svg {
+  opacity: 0.4;
+  width: 4.5em;
+  transform: translate(5px, -5px);
+}
+
+/* DigiHelp End */
+/* Footer */
