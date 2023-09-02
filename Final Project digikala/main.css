@@ -1038,6 +1038,14 @@ span.dicount-title {
 
 /* Footer */
 
+
+.footer1{
+  border: solid 1px #e0e0e6;
+  border-radius: 10px;
+  padding: 30px 10px;
+}
+
+
 .footer-top {
   height: 60px;
 }
@@ -1102,15 +1110,16 @@ span.dicount-title {
 .digihelp-col1,
 .digihelp-col2,
 .digihelp-col3 {
-  width: 27%;
+  width: 26%;
 }
 .digihelp-col4 {
-  width: 19%;
+  width: 22%;
 }
 
 .social-box {
   width: 100%;
   position: relative;
+  margin: 20px auto;
 }
 
 .social-box a {
@@ -1128,5 +1137,119 @@ span.dicount-title {
   transform: translate(5px, -5px);
 }
 
+form.email-box input[type="email"] {
+  width: 75%;
+  background-color: #f1f2f4;
+  border: none;
+  border-radius: 10px;
+  height: 4em;
+  padding-right: 20px;
+}
+
+form.email-box input[type="email"]::placeholder {
+  opacity: 0.8;
+  font-size: 1.3em;
+}
+
+form.email-box input[type="email"]:focus {
+  outline: none;
+}
+
+form.email-box input[type="submit"] {
+  width: 20%;
+  background-color: #e0e0e6;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  height: 4em;
+  outline: none;
+  cursor: pointer;
+}
+
 /* DigiHelp End */
+
+/* Footert Market Start */
+
+.footer-market {
+  height: 80px;
+  background-color: #3c4b6d;
+  border-radius: 8px;
+  margin: 30px 20px;
+  padding: 20px;
+  position: relative;
+}
+
+.footer-market img.footer-logo {
+  height: 100%;
+  float: right;
+}
+
+.footer-market-text {
+  float: right;
+  color: white;
+position: absolute;
+top: 50%;
+right: 4em;
+transform: translateY(-50%);
+font-size: 1.3em;
+}
+
+.footer-market-logo{
+  height: 100%;
+  float: left;
+  background-color: white;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+/* Footert Market End */
+
+
+
+/* footer2 start */
+
+
+.footer2-right{
+  width: 75%;
+  float: right;
+}
+
+
+.footer2-left{
+  width: 25%;
+  float: left;
+}
+
+
+
+.footer2{
+  border: solid 1px #e0e0e6;
+  border-radius: 10px;
+  padding: 30px 10px;
+  
+}
+
+.footer2-title{
+  
+  font-size: 1.5em;
+  line-height: 2.2em;
+  opacity: 0.8;
+}
+
+
+.footer2-text{
+  font-size: 0.8em;
+  opacity: 0.6;
+  height: 150px;
+  overflow: auto;
+  padding: 20px 0px 20px 50px;
+  text-align: justify;
+}
+
+
+
+/* footer2 end */
+
+
+
 /* Footer */
