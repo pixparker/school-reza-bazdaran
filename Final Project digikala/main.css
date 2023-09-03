@@ -19,6 +19,20 @@
   direction: rtl;
   max-width: 99vw;
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c3c3ce;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #9898a6;
+}
+
 ul {
   list-style: none;
 }
@@ -1038,13 +1052,11 @@ span.dicount-title {
 
 /* Footer */
 
-
-.footer1{
+.footer1 {
   border: solid 1px #e0e0e6;
   border-radius: 10px;
   padding: 30px 10px;
 }
-
 
 .footer-top {
   height: 60px;
@@ -1187,14 +1199,14 @@ form.email-box input[type="submit"] {
 .footer-market-text {
   float: right;
   color: white;
-position: absolute;
-top: 50%;
-right: 4em;
-transform: translateY(-50%);
-font-size: 1.3em;
+  position: absolute;
+  top: 50%;
+  right: 4em;
+  transform: translateY(-50%);
+  font-size: 1.3em;
 }
 
-.footer-market-logo{
+.footer-market-logo {
   height: 100%;
   float: left;
   background-color: white;
@@ -1204,40 +1216,32 @@ font-size: 1.3em;
 
 /* Footert Market End */
 
-
-
 /* footer2 start */
 
-
-.footer2-right{
+.footer2-right {
   width: 75%;
   float: right;
 }
 
-
-.footer2-left{
+.footer2-left {
   width: 25%;
   float: left;
+  text-align: center;
 }
 
-
-
-.footer2{
+.footer2 {
   border: solid 1px #e0e0e6;
   border-radius: 10px;
   padding: 30px 10px;
-  
 }
 
-.footer2-title{
-  
+.footer2-title {
   font-size: 1.5em;
   line-height: 2.2em;
   opacity: 0.8;
 }
 
-
-.footer2-text{
+.footer2-text {
   font-size: 0.8em;
   opacity: 0.6;
   height: 150px;
@@ -1246,10 +1250,70 @@ font-size: 1.3em;
   text-align: justify;
 }
 
-
+.footer2-left a {
+  width: 30%;
+  height: 115px;
+  display: inline-block;
+  border: solid 1px #e0e0e6;
+  border-radius: 10px;
+  margin: 0px 5px;
+}
+.footer2-left img {
+  width: 55%;
+  height: 100%;
+  object-fit: contain;
+}
 
 /* footer2 end */
 
+/* footer3 Digi Online Start */
 
+.footer3-digi-online {
+  border-radius: 10px;
+}
+.footer3-title {
+  font-size: 0.8em;
+  opacity: 0.7;
+  text-align: center;
+  margin: 40px;
+}
+.footer3-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.footer3-table a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.footer3-table td {
+  padding: 20px 15px;
+  text-align: center;
+  width: 11.11%;
+
+  background-color: #f1f2f4;
+  border: solid 1px #e0e0e6;
+  position: relative;
+}
+
+.footer3-table img {
+  width: 50%;
+}
+
+.f3-image1,
+.f3-image3,
+.f3-image6,
+.f3-image8,
+.f3-image13,
+.f3-image16,
+.f3-image17,
+.f3-image18 {
+  width: 80% !important;
+  margin-top: 6px;
+}
+
+/* footer3 Digi Online End */
 
 /* Footer */
