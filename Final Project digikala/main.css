@@ -139,7 +139,49 @@ a.register > * {
 
 .location {
   float: left;
+  position: relative;
 }
+
+
+.location i.fi-xnluxl-map-marker {
+
+  font-size: 1.1em;
+  position: relative;
+  top: -4px;
+
+}
+
+
+.category-div{
+  position: relative;
+}
+
+
+.modal-menu{
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  background-color: #F5F5F5;
+  z-index: 5;
+
+}
+
+.modal-menu li{
+padding: 15px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .category {
   float: right;
@@ -1237,14 +1279,14 @@ form.email-box input[type="submit"] {
 
 .footer2-title {
   font-size: 1.5em;
-  line-height: 2.2em;
+  line-height: 1.2em;
   opacity: 0.8;
 }
 
 .footer2-text {
   font-size: 0.8em;
   opacity: 0.6;
-  height: 150px;
+  height: 80px;
   overflow: auto;
   padding: 20px 0px 20px 50px;
   text-align: justify;
