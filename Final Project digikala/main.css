@@ -224,10 +224,16 @@ a.register > * {
 
 .categoty-sub-col a {
   display: inline-block;
-  
-  
   width: 100%;
 }
+
+
+.cat-beauty {
+  width: 48.75vw !important;
+}
+.beauty-li .categoty-sub-col {
+  width: 33.33%;
+} 
 
 /* hover */
 
