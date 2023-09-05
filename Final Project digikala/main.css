@@ -178,6 +178,11 @@ a.register > * {
 
 .category-menu li {
   padding: 15px;
+  
+}
+.category-menu li:hover {
+  background-color: white;
+  color: red;
 }
 
 .categoty-sub {
@@ -193,6 +198,7 @@ a.register > * {
   right: 100%;
   overflow-y: auto;
   display: none;
+  color: initial;
 }
 
 .categoty-sub-col {
