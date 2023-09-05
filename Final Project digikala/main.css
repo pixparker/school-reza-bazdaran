@@ -159,6 +159,20 @@ a.register > * {
 }
 
 /* Category Menu Start */
+
+span.vertical-line {
+  width: 2px;
+  height: 60%;
+  background-color: red;
+  display: inline-block;
+  position: absolute;
+  right: 0.9em;
+}
+
+
+
+
+
 .category-menu {
   position: absolute;
   top: 73%;
@@ -174,6 +188,7 @@ a.register > * {
 .category-menu td,
 .category-menu th {
   width: 100vw;
+  position: relative;
 }
 
 .category-menu li {
@@ -218,7 +233,7 @@ a.register > * {
   opacity: 0.8;
   padding-bottom: 1em;
   padding-top: 0.5em;
-  padding-right: 0.8em;
+  padding-right: 1.5em;
   text-align: right;
 }
 
