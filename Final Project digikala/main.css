@@ -17,7 +17,11 @@
   box-sizing: border-box;
   font-family: var(--font-family);
   direction: rtl;
-  max-width: 99vw;
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
 }
 
 ::-webkit-scrollbar {
@@ -58,10 +62,12 @@ a {
 }
 .header-content-left {
   float: left;
+  padding-left: 20px;
 }
 
 .header-content-right {
   float: right;
+  padding-right: 20px;
 }
 a.portfolio {
   color: black !important;
@@ -169,10 +175,6 @@ span.vertical-line {
   right: 0.9em;
 }
 
-
-
-
-
 .category-menu {
   position: absolute;
   top: 73%;
@@ -193,7 +195,6 @@ span.vertical-line {
 
 .category-menu li {
   padding: 15px;
-  
 }
 .category-menu li:hover {
   background-color: white;
@@ -248,13 +249,12 @@ span.vertical-line {
   width: 100%;
 }
 
-
 .cat-beauty {
   width: 48.75vw !important;
 }
 .beauty-li .categoty-sub-col {
   width: 33.33%;
-} 
+}
 
 /* hover */
 
@@ -305,55 +305,6 @@ span.vertical-line {
 .category-menu .native-li:hover .cat-native {
   display: block !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Category Menu End */
 
