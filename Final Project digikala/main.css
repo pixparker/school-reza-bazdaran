@@ -53,53 +53,22 @@ a {
 
 /* HEADER Start */
 
-.fixed-top{
-  /* position: fixed; */
+.fixed-top {
+  position: fixed;
   top: 0px;
   background-color: white;
-  z-index: 9999;
-  
-
-
+  z-index: 10;
+  padding-bottom: 8px;
+  /* visibility: hidden; */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .header-top-img {
   width: 100vw;
 }
 
-.header-content {
-  /* padding-top: 1em; */
-  
-}
-
 .header-bar {
   position: relative;
-
 }
-
 
 .header-content-left {
   float: left;
@@ -178,13 +147,10 @@ a.register > * {
 
 /* Menu */
 .menu-content {
-  
   height: 40px;
   padding: 10px;
   font-size: 0.8em;
-  margin-top: 15px;
-  border: dashed 2px green;
-
+  margin-top: 130px;
 }
 
 .location {
