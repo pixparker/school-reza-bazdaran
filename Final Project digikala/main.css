@@ -53,13 +53,54 @@ a {
 
 /* HEADER Start */
 
+.fixed-top{
+  /* position: fixed; */
+  top: 0px;
+  background-color: white;
+  z-index: 9999;
+  
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .header-top-img {
   width: 100vw;
 }
 
 .header-content {
-  padding-top: 1em;
+  /* padding-top: 1em; */
+  
 }
+
+.header-bar {
+  position: relative;
+
+}
+
+
 .header-content-left {
   float: left;
   padding-left: 20px;
@@ -137,10 +178,13 @@ a.register > * {
 
 /* Menu */
 .menu-content {
+  
   height: 40px;
   padding: 10px;
   font-size: 0.8em;
   margin-top: 15px;
+  border: dashed 2px green;
+
 }
 
 .location {
