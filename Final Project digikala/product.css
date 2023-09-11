@@ -502,10 +502,10 @@ float: right;
 fieldset.product-subtitle{
   
 
-  height: 200px;
+  
   border-right: none;
   border-left: none;
-  /* border-bottom: none; */
+  border-bottom: none;
   border-top: solid 1px #E0E0E6;
 }
 
@@ -571,47 +571,143 @@ fieldset.product-subtitle .likes i.info-ico:hover::after {
   position: absolute;
   left: -130px;
   top: 30px;
+  z-index: 5;
 }
   
 fieldset.product-subtitle .title-h4{
   margin: 1em auto;
 }
-
-.color1 {
+.color-label{
+  display: inline-block;
+}
+.color {
+  cursor: pointer;
   border-radius: 50%;
   width: 35px;
   height: 35px;
   background-color: white;
-  border: solid 4px #19BFD3;
+  border: solid 4px rgb(229, 229, 229);
   position: relative;
 }
-.color1 p{
+.color p{
   border-radius: 50%;
   width: 25px;
   height: 25px;
-  background-color: #212121;
+  
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-52%);
 }
 
-input{
-  width: 100px;
-  height: 100px;
-  visibility: visible;
-  
+input.color-input{
+  visibility: hidden;
   position: absolute;
-  top: 300px;
-  left: 300px;
+}
+
+input:checked ~ div  {
+  border: solid 4px #19BFD3;
+}
+
+.fi-xwsuxl-check {
+  position: absolute;
+  right: 2px;
+  visibility: hidden;
+  color: white;
+}
+
+input:checked ~ div p i{
+  visibility: visible;
+}
+
+.color1 p{
+  background-color: #212121;
+}
+
+.color2 p{
+  background-color: #F44336;
+}
+.color3 p{
+  background-color: #2196F3;
+}
+.color4 p{
+  background-color: #FF80AB;
+}
+.color5 p{
+  background-color: #007E33;
+}
+
+.insuranc-box{
+  
+  height: 60px;
+  border: solid 1px lightgray;
+  border-radius: 10px;
+}
+.insuranc-right{
+  float: right;
+  width: 7%;
+  height: 100%;
+  border-left: solid 1px lightgray;
+  position: relative;
   
 }
 
-input:checked ~ div p::before {
-
-  border: solid 2px green;
-  content: "GOOOOOOOOD";
+.insuranc-left{
+  float: left;
+  width: 90%;
+  height: 100%;
+  position: relative;
+  
 }
+.insuranc-left p{
+line-height: 2.2em;
+font-size: 0.8em;
+  
+}
+.insuranc-left a{
+float: left;
+  
+}
+
+.insuranc-right input[type='checkbox'] {
+  scale: 1.5;
+  accent-color: #008EB2 !important;
+  position: absolute;
+  top: 56%;
+  left: 56%;
+  transform: translate(-50%,-50%);
+}
+
+.insuranc-left span:nth-of-type(2) {
+  text-decoration: line-through;
+  font-size: 0.9em;
+  opacity: 0.3;
+}
+.insuranc-left span:nth-of-type(3) {
+  font-size: 0.9em;
+}
+
+
+
+.offer-percent {
+  background-color: #ef3a50;
+  border-radius: 10px;
+  padding: 0px 10px;
+  color: white;
+  font-size: 0.9em;
+}
+
+
+.viewall {
+  color: #31C6D8;
+  width: 100%;
+  padding: 20px 15px;
+  font-size: 0.8em;
+}
+
+
+
+
 
 
   /* Product End */
