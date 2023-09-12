@@ -398,7 +398,6 @@
 
 
 .product-topbar{
-  width: 100vw;
   padding: 10px;
   border-top: solid 2px lightgray;
   font-size: 0.8em;
@@ -889,12 +888,12 @@ float: left;
   margin-right:40px;
 }
 
-.seller-box .pop-box {
+.pop-box {
   margin-top: 15px;
   width: 100%;
 }
 
-.seller-box .pop-box-right{
+ .pop-box-right{
   float: right;
   width: 40%;
   text-align: left;
@@ -903,7 +902,7 @@ float: left;
   border-left: solid 1px lightgray;
 
 }
-.seller-box .pop-box-left{
+.pop-box-left{
   float: right;
   width: 40%;
   padding-right: 10px;
@@ -1132,6 +1131,101 @@ float: left;
   font-size: 0.75em;
   position: relative;
   top: -1em;
+}
+
+
+.horizontal-line{
+  height: 2px;
+  width: 4.5em;
+  background-color: red;
+  margin: 20px 0px;
+}
+
+
+.all-sellers-table{
+  border: solid;
+  height: 800px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.all-sellers-table td{
+  border: dashed;
+  
+  width: 25%;
+  
+}
+
+
+.logo-div{
+  float: right;
+  width: 8%;
+  
+}
+.logo-div img {
+  width: 80%;
+  border-radius: 0px 8px 8px 0px;
+  
+}
+
+.seller-info{
+  float: left;
+  width: 92%;
+}
+.seller-info > p{
+  display: inline-block;
+  padding-right: 35px;
+
+}
+
+
+.seller-info .digiplus-service {
+  background: linear-gradient(to left, #F7EFF5, #FDFAFC);
+  border-radius: 10px;
+  margin: 15px 40px;
+  
+}
+
+
+.digiplus-service i  {
+  color: #B12BA4;
+  float: right;
+
+}
+.digiplus-service span:nth-of-type(1)  {
+  
+  float: right;
+  color: #B12BA4;
+  font-size: 0.8em;
+
+}
+.digiplus-service span:nth-of-type(2)  {
+  float: right;
+  opacity: 0.7;
+  font-size: 0.7em;
+
+}
+
+.all-sellers-table td:nth-of-type(2)>i{
+  color: red;
+}
+.all-sellers-table td:nth-of-type(2) p,
+.all-sellers-table td:nth-of-type(2) span {
+  font-size: 0.8em;
+  opacity: 0.8;
+}
+
+.all-sellers-table td:nth-of-type(4) span{
+  font-weight: bold;
+  margin-right: 25%;
+}
+.all-sellers-table td:nth-of-type(4) a{
+  background-color: #EF4056;
+  color: white;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 0.8em;
 }
 
   /* Product End */
