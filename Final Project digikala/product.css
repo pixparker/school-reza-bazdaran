@@ -1322,7 +1322,11 @@ float: left;
 
 
 
-
+.comments{
+  width: 100%;
+  height: 800px;
+  border: dashed 2px green;
+}
 
 
 
