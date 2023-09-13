@@ -64,10 +64,12 @@
   
   .header-top-img {
     width: 100vw;
+    z-index: 9;
   }
   
   .header-bar {
     position: relative;
+    z-index: 3;
   }
   
   .header-content-left {
@@ -1327,11 +1329,13 @@ float: left;
   height: 2000px;
   border: dashed 2px green;
   position: relative;
+  
 }
 .comments-navbar{
+  background-color: white;
+  z-index:5;
   position: sticky;
-  top: 0px;
-  border: solid;
+  top: 122px;
 
 }
 
@@ -1340,7 +1344,6 @@ float: left;
   padding: 10px;
   font-size: 0.75em;
   position: relative;
-  /* border: solid; */
 }
 
 
@@ -1366,30 +1369,110 @@ float: left;
 }
 
 .comments .right-side{
-  /* float: right; */
+  float: right;
   width: 17.8%;
-  height: 200px;
-  background-color: red;
+  /* border: solid red; */
   position: sticky;
-  top: 0px;
-  z-index: 9;
+  top:150px;
 
 }
 .comments .center{
   float: right;
   width: 64.4%;
   height: 200px;
-  background-color: green;
+  padding: 10px;
 }
 .comments .left-side{
   float: right;
   width: 17.8%;
   height: 200px;
   background-color: blue;
+  position: sticky;
+  top:150px;
 }
 
 
+.comments-box.right-side span:nth-of-type(2){
+font-size: 0.6em;
+line-height: 3em;
+}
 
+.comments-box.right-side p>i{
+  color: #F6A924 !important;
+  opacity: 1;
+  font-size: 1em;
+  line-height: 3em;
+  
+  
+}
+
+.comments-box.right-side p:nth-of-type(3){
+  font-size: 0.7em;
+  line-height: 3em;
+}
+
+
+.comments-box.right-side a{
+  display: block;
+  width: 90%;
+  border: solid 1px #EF4056;
+  border-radius: 10px;
+  padding: 13px 32%;
+  margin: 1em auto;
+  color: #EF4056;
+  font-size: 0.8em;
+
+}
+
+.comments-box.right-side >i {
+  opacity: 0.5;
+  font-size: 0.8em;
+}
+
+.comments-box.right-side .digiclub-rate{
+  font-size: 0.8em;
+  line-height: 2em;
+  padding-right: 0.5em;
+  
+}
+.comments-box.right-side p.digiclub-rate{
+  padding-right: 2em !important;
+  width: 90%;
+  text-align: justify;
+}
+
+.comments-box.center>p:nth-of-type(1)>* {
+  font-size: 0.7em;
+}
+.comments-box.center>p:nth-of-type(1)>i.fi-xwluhl-thumb-wide {
+  color: green;
+  position: relative;
+  top: -0.3em;
+}
+.comments-box.center>p:nth-of-type(1)>i.fi-cnldxl-exclamation-mark {
+  position: relative;
+  top: -0.2em;
+  opacity: 0.4;
+}
+
+
+.comments .users-pic {
+  width: 70%;
+  height: 7em;
+  overflow: hidden;
+  padding: 20px;
+  
+}
+.comments .users-pic img {
+  width: 12%;
+  height: 100%;
+  object-fit: cover;
+  scale: 0.8;
+  margin-left: 3%;
+  border-radius: 10px;
+
+
+}
 
 
   /* Product End */
