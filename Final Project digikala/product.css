@@ -1324,19 +1324,69 @@ float: left;
 
 .comments{
   width: 100%;
-  height: 800px;
+  height: 2000px;
   border: dashed 2px green;
+  position: relative;
+}
+.comments-navbar{
+  position: sticky;
+  top: 0px;
+  border: solid;
+
+}
+
+.comments-navbar li{
+  float: right;
+  padding: 10px;
+  font-size: 0.75em;
+  position: relative;
+  /* border: solid; */
 }
 
 
+.comments-navbar li:hover::after{
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: red;
+  width: 80%;
+  height: 2px;
+  right: 10%;
+  margin: 0.3em auto;
+}
+.hr-brake {
+  width: 100%;
+  height: 2px;
+  background-color: lightgray;
+  
+}
 
+.comments h4 {
+  margin: 20px 0px;
+}
 
+.comments .right-side{
+  /* float: right; */
+  width: 17.8%;
+  height: 200px;
+  background-color: red;
+  position: sticky;
+  top: 0px;
+  z-index: 9;
 
-
-
-
-
-
+}
+.comments .center{
+  float: right;
+  width: 64.4%;
+  height: 200px;
+  background-color: green;
+}
+.comments .left-side{
+  float: right;
+  width: 17.8%;
+  height: 200px;
+  background-color: blue;
+}
 
 
 
