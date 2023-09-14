@@ -1387,7 +1387,6 @@ float: left;
   border-radius: 0.5em;
   border: solid 1px lightgray;
   width: 17.8%;
-  height: 200px;
   background-color: #F7F7F8;
   /* background-color: gray; */
   position: sticky;
@@ -1672,16 +1671,47 @@ border-radius: 0.5em;
   top: 0.15em;
 }
 
-
-
+.comments-box.left-side p{
+line-height: 2em;
+}
+.comments-box.left-side p>span{
+  font-size: 0.8em;
+}
+.comments-box.left-side p>i.fi-xwluxl-shield-wide{
+  font-size: 0.9em;
+}
+.comments-box.left-side p>i.fi-xnsuhl-hard-floppy{
+  font-size: 0.9em;
+  color: #19BFD3;
+}
 .comments-box.left-side .logo-image{
   width: 6%;
   border-radius: 0 0.4em 0.4em 0 ;
   margin-left: 0.7em;
+  opacity: 0.8;
 }
 .comments-box.left-side p:nth-of-type(1) span{
   position: relative;
-  top: 0.4em;
+  top: 0.45em;
+  opacity: 0.8;
+}
+.comments-box.left-side>h4{
+  position: relative;
+  width: fit-content;
+  right: 60%;
+}
+
+.comments-box.left-side>h4>span:last-child {
+  font-size: 0.6em;
+}
+.comments-box.left-side > a {
+background-color: #EF4056;
+color: white;
+font-size: 0.8em;
+border-radius: 0.5em;
+display: block;
+padding: 0.8em 6em;
+margin: 0 auto;
 }
 
   /* Product End */
