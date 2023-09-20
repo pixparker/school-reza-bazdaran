@@ -409,6 +409,14 @@
   border-top: solid 2px lightgray;
   font-size: 0.8em;
   opacity: 0.6; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-topbar >div {
+  display: flex;
+  justify-content: space-between;
 }
 
 ul.breadcrump , ul.breadcrump2{
@@ -439,10 +447,11 @@ float: right;
 
 
 
-.product-topbar > a {
+.product-topbar>div>a {
 
   float: left;
   padding: 10px 20px 10px 20px;
+  
 }
 
 
@@ -1117,6 +1126,8 @@ float: left;
   direction: ltr;
   opacity: 0.5;
   font-size: 0.75em;
+   margin-bottom: 100px;
+  width: 100%;
 }
 .price-better a{
   margin-left: 1em;
@@ -1126,7 +1137,7 @@ float: left;
 
 
 .delivery-post{
-  width: 100%;
+ 
   padding: 15px 0px;
   border-top: solid 1px rgba(211, 211, 211, 0.315);
   border-bottom: solid 5px rgba(211, 211, 211, 0.315);
