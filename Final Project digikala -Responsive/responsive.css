@@ -42,7 +42,7 @@
     .col-xs-9 { width: 75% !important ; }
     .col-xs-10 { width: 83.33% !important ; }
     .col-xs-11 { width: 91.66% !important ; }
-    .col-xs-12 {width: 100% !important ; border: solid red; position: static !important; display: block !important; }
+    .col-xs-12 {width: 100% !important ;  }
     
 }
 

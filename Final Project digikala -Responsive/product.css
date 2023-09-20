@@ -1354,8 +1354,8 @@ float: left;
 .comments-navbar{
   background-color: white;
   z-index:5;
-  /* position: sticky; */
-  top: 122px;
+  position: sticky;
+  top: 0px;
 
 }
 
@@ -1397,9 +1397,13 @@ float: left;
 .comments h4 {
   margin: 20px 0px;
 }
+@media (max-width: 576px) {
+  .comments-box{
+position: static !important;
+  }  
 
-.comments-box{
 }
+
 
 .comments .right-side{
   float: right;
@@ -2122,6 +2126,27 @@ form.email-box input[type="submit"] {
   padding: 20px;
   position: relative;
 }
+.footer-logo-div{
+height: 100%;
+float: right;
+
+}
+
+@media (max-width:576px) {
+  .footer-logo-div {
+    height: 35px;
+  }
+  .footer-market{
+    height: initial;
+  }
+
+  .footer-market-text{
+    font-size: 1em !important;
+    top: 30% !important;
+  }
+
+  
+}
 
 .footer-market img.footer-logo {
   height: 100%;
@@ -2137,14 +2162,20 @@ form.email-box input[type="submit"] {
   transform: translateY(-50%);
   font-size: 1.3em;
 }
+.footer-market-logoes{
+  float: left;
+}
 
 .footer-market-logo {
   height: 100%;
-  float: left;
+  
+  /* float: left; */
   background-color: white;
   border-radius: 8px;
   margin-right: 10px;
 }
+
+
 
 /* Footert Market End */
 
@@ -2156,7 +2187,7 @@ form.email-box input[type="submit"] {
 }
 
 .footer2-left {
-  width: 25%;
+  width: 26%;
   float: left;
   text-align: center;
 }
@@ -2188,7 +2219,7 @@ form.email-box input[type="submit"] {
   display: inline-block;
   border: solid 1px #e0e0e6;
   border-radius: 10px;
-  margin: 0px 5px;
+  margin: 0px;
 }
 .footer2-left img {
   width: 55%;
@@ -2203,6 +2234,14 @@ form.email-box input[type="submit"] {
 .footer3-digi-online {
   border-radius: 10px;
 }
+
+@media screen and (max-width:576px) {
+  .footer3-digi-online {
+    display: none;
+  }
+}
+
+
 .footer3-title {
   font-size: 0.8em;
   opacity: 0.7;
