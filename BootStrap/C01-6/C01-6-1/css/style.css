@@ -1,0 +1,25 @@
+.container {
+  background-color: #eadffe;
+  margin: 20px auto;
+}
+
+div [class^="col"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.border {
+  border-color: #b996fc !important;
+  border-width: 1px !important;
+}
+
+.row2 {
+  display: flex;
+  justify-content: center;
+}
+.row3 {
+  display: flex;
+  justify-content: end;
+}
