@@ -1,0 +1,17 @@
+.space{
+    height: 10px;
+}
+
+
+
+.container{
+    padding: 50px;
+}
+
+div [class^="col"]{
+    background-color: #EADFFE;
+    border: solid 1px #C6A9FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
