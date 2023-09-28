@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C01-</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C01-9 image</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-
-
-
+  <body class="bg-dark-subtle">
+    <div class="container-fluid">
+      <h1>Images</h1>
+      <div class="container px-lg-5 clearfix">
+        <img class="float-start img-thumbnail" src="pic1.webp" alt="" />
+        <img class="float-end img-thumbnail" src="pic2.jpg" alt="" />
+      </div>
+    </div>
 
     <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
-</body>
+    <style>
+      img:nth-child(2) {
+        border-radius: 100%;
+      }
+
+      img {
+        width: 300px;
+      }
+    </style>
+  </body>
 </html>
