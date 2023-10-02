@@ -1,0 +1,5 @@
+#check1:checked + label > *,
+#check2:checked + label > *,
+#check3:checked + label > * {
+  opacity: 0.5;
+}
