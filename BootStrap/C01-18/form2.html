@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>18 form validation</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+  </head>
+  <body>
+    <div class="container p-3">
+      <h3>Form Validation</h3>
+      <p>Try to submit this form</p>
+
+      <form class="row g-3 was-validated" action="" novalidate>
+        <div>
+            <label class="form-label" for="user">Username :</label>
+            <input class="form-control" type="text" id="user" placeholder="Enter username" value="" required />
+            <div class="valid-feedback">valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
+        
+
+        <div>
+            <label class="form-label" for="pass">Password:</label>
+            <input class="form-control" type="password" name="pass" id="pass" required>
+            <div class="valid-feedback">valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
+
+        <div>
+            <input class="form-check-input " type="checkbox" id="chk" required>
+            <label class="form-check-label" for="chk">I agree on blogba.</label>
+            <div class="valid-feedback">valid.</div>
+            <div class="invalid-feedback ps-4">Check this checkbox to continue.</div>
+        </div>
+
+        
+
+        <button type="submit" class="btn btn-primary col-sm-2 col-lg-1">Submit</button>
+      </form>
+    </div>
+
+
+
+
+
+
+    <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
+  </body>
+</html>
