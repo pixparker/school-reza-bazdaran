@@ -3,3 +3,7 @@
 #check3:checked + label > * {
   opacity: 0.5;
 }
+
+#ch1:checked +  *{
+  border: solid 1px blue;
+}
