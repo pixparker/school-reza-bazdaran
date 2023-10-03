@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C01-</title>
+    <link rel="stylesheet" href="css/bootstrap.rtl.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container mx-auto mt-5">
+      <div class="row justify-content-center">
+        <div class="col-4">
+          <label class="form-label" for="email">آدرس ایمیل</label>
+          <input class="form-control" type="email" id="email" placeholder="ایمیل خود را وارد کنید" style="direction: rtl" />
+          <label class="form-label" for="pass">کبمه عبور</label>
+          <input class="form-control" type="password" id="pass" placeholder="کلمه عبور را وارد کنید" style="direction: rtl" />
+          <label class="form-label" for="name">نام</label>
+          <input class="form-control" type="text" name="" id="name" />
+          <label class="form-label" for="product">محصول خود را انتخاب کنید</label>
+          <select class="form-select" name="" id="product">
+            <option value="1">موبایل</option>
+            <option value="2">تبلت</option>
+            <option value="3">لپتاپ</option>
+          </select>
+          <label class="form-label" for="products">محصولات خود را انتخاب کنید</label>
+          <select class="form-select" name="" id="products" multiple>
+            <option value="1">موبایل</option>
+            <option value="2">تبلت</option>
+            <option value="3">لپتاپ</option>
+          </select>
+          <label class="form-label" for="file">فایل خود را انتخاب کنید</label>
+          <input class="form-control" type="file" id="file" />
+        </div>
+        <div class="col-4">
+          <label for="range">تعیین بازه</label>
+          <input class="mt-3 mb-3" type="range" min="0" max="100" style="width: 400px;"/>
+          <div class="form-check-inline">
+            <input class="form-check-input" type="radio" name="gender" id="man" />
+            <label class="form-check-label me-3" for="man">مرد</label>
+            <input class="form-check-input" type="radio" name="gender" id="woman" />
+            <label class="form-check-label" for="woman">زن</label>
+          </div>
+        </div>
+      </div>
+
+      
+        <div class="d-flex justify-content-center">
+        <form class="row input-group w-75 gx-5 mt-5">
+            
+
+            
+          <label class="form-label col-form-label col-auto px-0" for="email2">پست الکترونیک</label>
+          <input class="form-control col-auto me-3" type="email" name="" id="email2" required />
+
+          <label class="form-label  col-form-label col-auto px-0" for="pass2">رمز عبور</label>
+          <input class="form-control col-auto me-3" type="email" name="" id="pass2" />
+
+          <input class=" form-check-inline col-auto " type="checkbox" id="chk">
+          <label class="form-check-label col-form-label  col-auto me-3 px-0" for="chk">مرا به خاطر بسپار</label>
+
+          <button type="submit" class="btn btn-success col-auto rounded">ارسال</button>
+        
+        </form>
+    </div>
+
+      </div>
+    
+
+    <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
+  </body>
+</html>
