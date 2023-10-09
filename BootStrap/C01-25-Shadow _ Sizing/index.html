@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,32 +8,68 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<div class="container-fluid">
+    <div class="container-fluid">
 
-<h1>Bootstrap Sizing</h1>
-<div class="w-100">
-<div class="bg-secondary p-3 bg-opacity-25 w-25">25%</div>
-<div class="bg-secondary p-3 bg-opacity-50 w-50">50%</div>
-<div class="bg-secondary p-3 bg-opacity-75 w-75">75%</div>
-<div class="bg-secondary p-3 bg-opacity-100 w-100">100%</div>
-</div>
+        <h1>Bootstrap Sizing</h1>
+        <div class="w-100">
+            <div class="bg-secondary p-3 bg-opacity-25 w-25">25%</div>
+            <div class="bg-secondary p-3 bg-opacity-50 w-50">50%</div>
+            <div class="bg-secondary p-3 bg-opacity-75 w-75">75%</div>
+            <div class="bg-secondary p-3 bg-opacity-100 w-100">100%</div>
+        </div>
 
-<div style="height: 100px;"></div>
+        <div style="height: 100px;"></div>
 
-<div class="bg-danger-subtle" style="height: 100px;">
-    <div class="bg-info  bg-opacity-25 d-inline-block pe-5 pe-3 h-25 ">25%</div>
-    <div class="bg-info  bg-opacity-25 d-inline-block pe-5 h-50 ">50%</div>
-    <div class="bg-info  bg-opacity-25 d-inline-block pe-5 h-75 ">75%</div>
-    <div class="bg-info  bg-opacity-25 d-inline-block pe-5 h-100 ">100%</div>
-</div>
+        <div class="bg-danger-subtle" style="height: 100px;">
+            <div class="bg-info  bg-opacity-25 d-inline-block pe-5 pe-3 h-25 ">25%</div>
+            <div class="bg-info  bg-opacity-25 d-inline-block pe-5 h-50 ">50%</div>
+            <div class="bg-info  bg-opacity-25 d-inline-block pe-5 h-75 ">75%</div>
+            <div class="bg-info  bg-opacity-25 d-inline-block pe-5 h-100 ">100%</div>
+        </div>
+
+        <hr class="my-5">
+
+        <div class="row">
+            <div class="col-9 mx-auto">
+                <h1>Column Sizing</h1>
+                <p>The form below shows input elements with diferent widths using diferent .col-md-* classes </p>
+                <div class="row ">
+                    <div class="col-md-2">
+                        <input class=" form-control " type="text" name="" id="">
+                    </div>
+                    <div class="col-md-3">
+                        <input class=" form-control " type="text" name="" id="">
+                    </div>
+                    <div class="col-md-4">
+                        <input class=" form-control " type="text" name="" id="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
 
-</div>
+        <hr class="my-5">
+
+        <div>
+            <h1>Shadow</h1>
+            <div class="col-8 mx-auto">
+                <h6>Bootstrap Shadows</h6>
+                <div class="shadow-none p-3 mb-4 bg-body">No Shadows</div>
+                <div class="shadow-sm p-3 mb-4 bg-body">Small Shadows</div>
+                <div class="shadow p-3 mb-4 bg-body">Reqular Shadows</div>
+                <div class="shadow-lg p-3 mb-4 bg-body">Large Shadows</div>
+            </div>
+        </div>
+
+    </div>
 
 
 
     <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
