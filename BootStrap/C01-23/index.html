@@ -1,18 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C01-</title>
+    <title>C01-23-interaction - overflow</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
 
+    <div class="container">
+        <h1 class="text-center text-success ">SoftwareSchool</h1>
+        <h2 class="text-center mb-5">Interactions</h2>
+        <p class="user-select-all text-center">This paragraph will be entirely selected when clicked by the user.</p>
+        <hr>
+        <p class="user-select-auto text-center">This paragraph has default select behavior.</p>
+        <hr>
+        <p class="user-select-none text-center mb-5">This paragraph will not be selectable when clicked by the user.</p>
+        <hr>
+        <h1 class="text-center text-success ">SoftwareSchool</h1>
+        <h2 class="text-center mb-5 opacity-50">Overflow</h2>
 
+        <div class="overflow-auto mb-5" style="height: 90px; width: 250px;">This is an example of using .overflow-auto on an element with set width and height
+            dimensions. By design, this content will
+            vertically scroll.
+        </div>
+
+        <div class="overflow-hidden" style="height: 90px; width: 250px;">This is an example of using .overflow-hidden on an element with set width and height
+            dimensions.
+        </div>
+
+
+    </div>
 
 
     <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
