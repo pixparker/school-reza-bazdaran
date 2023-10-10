@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/style.css" />
 </head>
- 
+
 <body>
     <div class="container-fluid text-center">
         <div class="container p-5">
@@ -41,6 +41,10 @@
 
         <button class="btn btn-primary opacity-50"><span class="spinner-border spinner-border-sm"></span></button>
         <button class="btn btn-primary opacity-50"><span class="spinner-border spinner-border-sm me-2"></span>Loading</button>
+        <button class="btn btn-primary" type="button" disabled>
+            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+            Loading...
+        </button>
 
         <hr style="border-width: 20px" class="bg-light my-5" />
 
@@ -52,6 +56,8 @@
             <button class="btn btn-primary btn-lg rounded-circle">✕</button>
             <button class="btn btn-outline-primary btn-lg rounded-circle">✕</button>
         </div>
+
+      
     </div>
 
     <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
