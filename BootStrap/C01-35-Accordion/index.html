@@ -1,18 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C01-</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C01-35 Accordion</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
+  <div class="container">
+    <h1 class="text-success text-center">Accordion in Bootstrap</h1>
+    <h6 class="text-center">Title Accordion</h6>
+
+    <div class="my-4"></div>
+
+
+    <div class="accordion accordion-flush" id="accordionExample">
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button bg-body" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">DSA</button>
+        </h2>
+        <div class="accordion-collapse collapse " id="collapseOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Disabled Students’ Allowance (DSA) is support to cover the study-related costs you have because of a mental health problem, long-term illness or any
+            other disability.
+          </div>
+        </div>
+      </div>
+
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button bg-body" data-bs-toggle="collapse" data-bs-target="#collapseTwo">JavaScript</button>
+        </h2>
+        <div class="accordion-collapse collapse  " id="collapseTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.
+            As of 2023, 98.7% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries
+          </div>
+        </div>
+      </div>
+
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button bg-body" data-bs-toggle="collapse" data-bs-target="#collapseThree">Bootstrap</button>
+        </h2>
+        <div class="accordion-collapse collapse " id="collapseThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Bootstrapping is any test or metric that uses random sampling with replacement, and falls under the broader class of resampling methods.
+            Bootstrapping assigns measures of accuracy to sample estimates.
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
 
 
 
 
-    <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+  </div>
+
+
+
+
+  <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
