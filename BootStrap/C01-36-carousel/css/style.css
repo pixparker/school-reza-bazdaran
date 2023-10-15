@@ -1,0 +1,15 @@
+.form-control::placeholder {
+  color: rgb(152, 152, 152);
+}
+
+.carousel-item img {
+  height: 155px;
+}
+
+
+.container-fluid , body  {
+    box-sizing: border-box;
+    padding: 0px !important;
+    margin: 0px !important;
+    
+}
