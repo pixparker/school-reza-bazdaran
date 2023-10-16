@@ -185,6 +185,9 @@
           <small class="opacity-50">this option is disabled</small>
         </a>
       </div>
+
+
+
       <!-- 
 
 <div class="list-group  ">
@@ -235,37 +238,40 @@
 
 
 
-      
+
     </div>
   </div>
 
-  <!-- TEST -->
 
-  <div class="row">
-    <div class="col-4">
-      <div class="list-group" role="">
-        <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#">Home</a>
-        <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#list-profile">Profile</a>
-        <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#list-messages">Messages</a>
-        <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#list-settings">Settings</a>
-      </div>
+
+
+  <div class="list-group list1">
+    <div class="position-relative d-flex">
+      <input class="position-absolute z-2 end-0 me-3 translate-middle top-50 form-check-input me-1" type="radio" value="" id="radio1">
+      <label class="list-group-item list-group-item-action p-3 rounded-3" for="radio1"> First checkbox </label>
     </div>
   </div>
 
-  <!-- TEST -->
+  <div class="m-5"></div>
 
-  <div class="row">
-    <div class="col-4">
-      <div class="list-group" role="">
-        <a class="list-group-item list-group-item-action btn btn-outline-primary" data-bs-toggle="" href="#">Home</a>
-        <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#list-profile">Profile</a>
-        <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#list-messages">Messages</a>
-        <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#list-settings">Settings</a>
-      </div>
-    </div>
-  </div>
 
-  <!-- TEST -->
+
+
+  <style>
+
+.list1 input:checked + label {
+background-color: var(--bs-body);
+border: 2px solid var(--bs-primary);
+}
+
+.list1 input{
+  /* top: 30%; */
+  
+}
+
+
+
+  </style>
 
   <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
 </body>
