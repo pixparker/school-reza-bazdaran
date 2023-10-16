@@ -1,18 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C01-</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C01-37-dropdown</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
+  <div class="container p-3 ">
+
+
+
+    <h3 class="text-success text-center mb-4">DropdownBootstrap</h3>
+
+    <div class="drop1 d-flex justify-content-center">
+      <div class="btn-group dropend">
+        <button class="btn btn-success dropdown-toggle " type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Select Subject
+        </button>
+        <div class="dropdown-menu dropdown-menu-start " aria-labelledby="triggerId">
+          <a class="dropdown-item" href="#">Data Structure</a>
+          <a class="dropdown-item" href="#">Algorithm</a>
+          <a class="dropdown-item" href="#">Operating System</a>
+          <a class="dropdown-item" href="#">Computer Networks</a>
+        </div>
+      </div>
+    </div>
 
 
 
 
-    <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
+    <br class="m-5"><br class="m-5"><br class="m-5"><br class="m-5"><br class="m-5">
+    <hr>
+
+
+
+    <div class="drop2 d-flex justify-content-center">
+      <div class="dropdown">
+        <button class="btn btn-success dropdown-toggle" type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Select Objects
+        </button>
+        <div class="dropdown-menu" aria-labelledby="triggerId">
+          <a class="dropdown-item text-decoration-underline dropdown-header" href="#">
+            <h6>CSS Subjects</h6>
+          </a>
+          <a class="dropdown-item" href="#">Data Structure</a>
+          <a class="dropdown-item" href="#">Algorithm</a>
+          <a class="dropdown-item" href="#">Operating System</a>
+          <a class="dropdown-item" href="#">Computer Networks</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Physics</a>
+          <a class="dropdown-item" href="#">Mathematics</a>
+          <a class="dropdown-item" href="#">Chemistry</a>
+        </div>
+      </div>
+    </div>
+
+    <br class="m-5"><br class="m-5"><br class="m-5"><br class="m-5"><br class="m-5">
+    <hr>
+
+    <div class="drop3 d-flex justify-content-center">
+      <div class="btn-group"  role="group" aria-label="">
+        <button type="button" class="btn btn-success">Programming</button>
+        <button type="button" class="btn btn-success">Theory</button>
+        <button id="dropdownId" type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
+          Select Subject
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownId">
+          <li class="dropdown-item">Data Structure</li>
+          <li class="dropdown-item">Algorithm</li>
+          <li class="dropdown-item">Operating System</li>
+          <li class="dropdown-item">Computer</li>
+          <li class="dropdown-item">Networks</li>
+        </ul>
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+
+  <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
