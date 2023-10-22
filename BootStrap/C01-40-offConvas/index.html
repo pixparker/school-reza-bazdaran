@@ -1,18 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C01-</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C01-40-offcanvas</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
+  <div class="container p-3">
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#Id1" aria-controls="Id1">offcanvas</button>
+    <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#Id2" aria-controls="Id2">offcanvas</button>
+    <button class="btn btn-danger" type="button" data-bs-toggle="offcanvas" data-bs-target="#Id3" aria-controls="Id3">offcanvas</button>
+    <button class="btn btn-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#Id4" aria-controls="Id4">offcanvas</button>
+
+    <h1 class="text-center py-3">Welcome to SoftwareSchool</h1>
+
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="Id1" aria-labelledby="Enable both scrolling & backdrop">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="Enable both scrolling & backdrop">Offcanvas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <p>Bootstrap is the most popular framework for developping responsive and mobile-first websites.</p>
+      </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="Id2" aria-labelledby="Enable both scrolling & backdrop">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="Enable both scrolling & backdrop">Offcanvas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <p>Bootstrap is the most popular framework for developping responsive and mobile-first websites.</p>
+      </div>
+    </div>
+
+    <div class="offcanvas offcanvas-top" data-bs-scroll="true" tabindex="-1" id="Id3" aria-labelledby="Enable both scrolling & backdrop">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="Enable both scrolling & backdrop">Offcanvas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <p>Bootstrap is the most popular framework for developping responsive and mobile-first websites.</p>
+      </div>
+    </div>
+
+    <div class="offcanvas offcanvas-bottom" data-bs-scroll="true" data-bs-backdrop="static" tabindex="-1" id="Id4" aria-labelledby="Enable both scrolling & backdrop">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="Enable both scrolling & backdrop">Offcanvas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <p>Bootstrap is the most popular framework for developping responsive and mobile-first websites.</p>
+      </div>
+    </div>
+  </div>
 
 
 
-
-    <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
+  <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
