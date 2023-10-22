@@ -1,18 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C01-</title>
+    <title>C01-43 popover</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
+    <div class="container">
+        <h1>Popover Example</h1>
+
+        <!-- You can dismiss by clicking somewhere -->
+        <a tabindex="0" class="cursor-pointer" data-bs-toggle="popover" title="Popup Header" data-bs-content="Some content inside the popover">toggle
+            popover</a>
+
+        <div class="mb-5"></div>
+
+        <button type="button" class="btn btn-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" title=""
+            data-bs-content="Top Popover">Popover on Top</button>
+        <button type="button" class="btn btn-primary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" title=""
+            data-bs-content="Right Popover">Popover on Right</button>
+        <button type="button" class="btn btn-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" title=""
+            data-bs-content="Bottom Popover">Popover on Bottom</button>
+        <button type="button" class="btn btn-primary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" title=""
+            data-bs-content="Left Popover">Popover on Left</button>
 
 
+    </div>
 
+    <style>
+        .cursor-pointer {
+            cursor: pointer;
+        }
+    </style>
 
     <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
+    <script>
+
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+
+
+
+        const popover = new bootstrap.Popover('.popover-dismiss', {
+            trigger: 'focus'
+        })
+    </script>
 </body>
+
 </html>

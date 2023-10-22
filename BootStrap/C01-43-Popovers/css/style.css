@@ -1,0 +1,13 @@
+.container .btn:focus {
+  border: solid 2px black;
+  box-shadow: inset 0 0 0 0.1rem rgba(0, 0, 0, 0.1);
+}
+
+.container > .btn-light {
+  --bs-btn-hover-bg: #f8f9fa;
+}
+
+.container > .btn-primary {
+  --bs-btn-bg: #2979b7;
+  --bs-btn-hover-bg: #4973b2;
+}
