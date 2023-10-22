@@ -1,13 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C01-</title>
+    <title>C01-45 scroll spy</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+    <div class="container-fluid px-0 position-relative clearfix">
+
+        <div class="my-4"></div>
+
+        <nav class=" navbar navbar-expand bg-dark navbar-dark fixed-top " id="nav-example">
+            <div class="container">
+                <a class="navbar-brand" href="#">LOGO</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId"
+                    aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " href="#div1" aria-current="page">Section1 <span class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#div2">Section2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#div3">Section3</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex my-2 my-lg-0">
+                        <input class="form-control me-sm-2" type="text" placeholder="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+
+    <!-- <div class="my-5"></div> -->
+
+
+
+
+
+
+
+
+
+
+    <div>
+        <div class="position-relative top-50" data-bs-spy="scroll" data-bs-target="#nav-example" data-bs-smooth-scroll="true" data-bs-offset="110" tabindex="0">
+            <div id="div1" class="bg-success display-1 m-0 " style="height:150vh">Section1</div>
+            <div id="div2" class="bg-primary display-1 m-0 pt-2" style="height:150vh">Section2</div>
+            <div id="div3" class="bg-danger display-1 m-0 pt-2" style="height:150vh">Section3</div>
+        </div>
+    </div>
+
+
+
+
 
 
 
@@ -15,4 +75,5 @@
 
     <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
