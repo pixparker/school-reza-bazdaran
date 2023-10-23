@@ -1,18 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C01-</title>
+    <title>C01-47 toast</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-
-
+    <h1 class="text-center text-success">SoftwareSchool</h1>
+    <h2 class="text-center">Bootstrap 5 Toast</h2>
+    <div class="d-flex justify-content-center ">
+        <button class="btn btn-primary" id="toast1">Show Toast</button>
+        <div class="toast-container mt-5">
+            <div class="toast " role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <strong class="me-auto">Bootstrap</strong>
+                    <small class="text-muted">11 min ago...</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    See? Just like this.
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
     <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.getElementById('toast1').onclick = function () {
+            const toastElList = document.querySelectorAll('.toast');
+            const toastOptions = {
+                animation: true, // Enable animation
+                autohide: true, // Automatically hide the toast
+                delay: 5000 // Show the toast for 5 seconds
+            };
+
+            const toastList = [...toastElList].map(toastEl => new bootstrap.Toast(toastEl, toastOptions));
+
+            // Show the toasts
+
+            toastList.forEach(toast => toast.show());
+        }
+
+    </script>
+
 </body>
+
 </html>
