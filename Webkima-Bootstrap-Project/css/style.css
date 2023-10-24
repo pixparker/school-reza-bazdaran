@@ -1,0 +1,56 @@
+:root {
+  --wb-primary: #666af6;
+  --wb-primary-subtle: #8792e6;
+  --wb-secondary: #3b4a69;
+  --wb-success: #551bf8;
+  --wb-dark: #1b263b;
+  --wb-dark-subtle: #2c3a56;
+  --wb-info: #04c4c9;
+  --wb-info-dark: #0e8590;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--wb-primary);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--wb-secondary);
+}
+body {
+  background-color: var(--wb-dark);
+}
+
+.top-bar.bg-primary {
+  background-color: var(--wb-primary) !important;
+}
+
+.navbar-top.bg-secondary {
+  background-color: var(--wb-secondary) !important;
+}
+.bg-dark-subtle {
+  background-color: var(--wb-dark-subtle) !important;
+}
+
+.nav-link:hover + .dropdown-menu {
+  display: block !important;
+}
+
+.dropdown-menu:hover {
+  display: block !important;
+}
+
+.dropdown-menu {
+  background-color: var(--wb-secondary);
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  transition: all 300ms ease-in-out;
+  background-color: var(--wb-primary-subtle) !important;
+}
+.dropdown-menu .row{
+  width: max-content;
+}
