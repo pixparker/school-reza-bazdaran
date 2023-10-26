@@ -2,13 +2,14 @@
   --wb-primary: #666af6;
   --wb-primary-subtle: #8792e6;
   --wb-primary-subtle2: #6c75b8;
-
   --wb-secondary: #3b4a69;
+  --wb-secondary-subtle: #B8C0FF;
   --wb-success: #551bf8;
   --wb-dark: #1b263b;
   --wb-dark-subtle: #2c3a56;
   --wb-info: #04c4c9;
   --wb-info-dark: #0e8590;
+  --wb-blue: #081d40;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -90,4 +91,36 @@ body {
   --bs-btn-disabled-border-color: var(--wb-primary) !important;
   --bs-gradient: none;
   transition: all 200ms ease-in-out;
+}
+
+.badge1 {
+  background-color: var(--wb-blue) !important;
+  border-radius: 25px 0px 0px 0px !important;
+}
+
+@media screen and (min-width: 992px){
+  
+  .carousel-control-prev {
+    right: -10% !important;
+  }
+  
+  .carousel-control-next {
+    left: -10% !important;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-size: 200% 200% !important;
+  }
+  
+
+}
+
+
+.free-courses-doc a{
+text-decoration: none ;
+}
+.free-courses-doc a:hover{
+color: var(--wb-secondary-subtle) !important;
+
 }
