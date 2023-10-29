@@ -103,9 +103,54 @@
 .h-95 {
   height: 95% !important;
 }
+.start-5 {
+  right: 5% !important;
+  transform: translateX(0) !important;
+}
+
+.start-10 {
+  right: 10% !important;
+  transform: translateX(0) !important;
+}
+
+.start-15 {
+  right: 15% !important;
+  transform: translateX(0) !important;
+}
+
+.start-20 {
+  right: 20% !important;
+  transform: translateX(0) !important;
+}
 
 .start-25 {
   right: 25% !important;
+  transform: translateX(0) !important;
+}
+
+.start-30 {
+  right: 30% !important;
+  transform: translateX(0) !important;
+}
+
+.start-35 {
+  right: 35% !important;
+  transform: translateX(0) !important;
+}
+.start-40 {
+  right: 40% !important;
+  transform: translateX(0) !important;
+}
+.start-45 {
+  right: 45% !important;
+  transform: translateX(0) !important;
+}
+.start-55 {
+  right: 55% !important;
+  transform: translateX(0) !important;
+}
+.start-60 {
+  right: 60% !important;
   transform: translateX(0) !important;
 }
 

@@ -10,7 +10,6 @@
   --wb-info: #04c4c9;
   --wb-info-dark: #0e8590;
   --wb-blue: #081d40;
-  
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -26,6 +25,8 @@
 
 body {
   background-color: var(--wb-dark);
+  margin: 0px !important;
+  padding: 0px !important;
 }
 
 .bg-secondary {
@@ -144,27 +145,29 @@ body {
     
   } */
 
-
 .email-container .input-group input::placeholder {
   color: gray;
   opacity: 0.7;
 }
 
-
-
 .a-hover:hover {
   color: var(--wb-secondary-subtle) !important;
 }
-
-
 
 .about i {
   color: var(--wb-primary) !important;
 }
 
-
-
 .custom-tooltip {
   --bs-tooltip-bg: black;
   --bs-tooltip-color: var(--bs-white);
+}
+
+@media screen and (max-width: 992px) {
+  .basket {
+    position: absolute;
+    left: 2%;
+    top: 50%;
+    transform: translate(-50%, -100%);
+  }
 }
