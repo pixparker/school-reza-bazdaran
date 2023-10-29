@@ -32,7 +32,7 @@ body {
   background-color: var(--wb-secondary) !important;
 }
 
-.top-bar.bg-primary {
+.top-bar .bg-primary {
   background-color: var(--wb-primary) !important;
 }
 
