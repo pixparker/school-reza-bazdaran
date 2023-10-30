@@ -11,8 +11,7 @@
   --wb-info: #04c4c9;
   --wb-info-dark: #0e8590;
   --wb-blue: #081d40;
-  --wb-blue2: #1A3366;
-  
+  --wb-blue2: #1a3366;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -49,7 +48,7 @@ body {
   background-color: var(--wb-secondary) !important;
 }
 
-.bg-blue2{
+.bg-blue2 {
   background-color: var(--wb-blue2) !important;
 }
 
@@ -85,7 +84,7 @@ body {
   width: max-content;
 }
 
-.bi-basket-fill{
+.bi-basket-fill {
   font-size: 1.5em !important;
   position: relative;
   top: 0.1rem;
@@ -213,6 +212,21 @@ body {
 .custom-tooltip {
   --bs-tooltip-bg: black;
   --bs-tooltip-color: var(--bs-white);
+}
+.custom-tooltip2 {
+  --bs-tooltip-bg: var(--wb-secondary);
+  --bs-tooltip-color: var(--bs-white);
+  --bs-tooltip-padding-x: 40px;
+  --bs-tooltip-padding-y: 30px;
+  --bs-tooltip-margin : 10px;
+  --bs-tooltip-arrow-width : 20px;
+  --bs-tooltip-font-size: 0.8em; 
+  --bs-tooltip-max-width : 100em;
+  
+  
+
+  /* padding: 1em; */
+  border-radius: 0.5em;
 }
 
 @media screen and (max-width: 992px) {
