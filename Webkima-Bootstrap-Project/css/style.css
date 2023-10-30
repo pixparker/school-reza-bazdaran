@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 :root {
   --wb-primary: #666af6;
   --wb-primary-subtle: #8792e6;
@@ -30,12 +31,16 @@ body {
 }
 
 @font-face {
-  font-family: webkima;
-  src: url(../fonts/fl-icons.woff2) format("woff2");
+  font-family: dana-VF;
+  src: url(../fonts/dana-vf.woff) format("woff2");
+}
+@font-face {
+  font-family: dana;
+  src: url(../fonts/dana-fanum-regular.woff) format("woff2");
 }
 
-*{
-  font-family: webkima !important;
+* {
+  font-family: "dana-VF", "dana", tahoma, serif;
 }
 
 .bg-secondary {
