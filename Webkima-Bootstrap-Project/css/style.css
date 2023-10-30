@@ -29,6 +29,15 @@ body {
   padding: 0px !important;
 }
 
+@font-face {
+  font-family: webkima;
+  src: url(../fonts/fl-icons.woff2) format("woff2");
+}
+
+*{
+  font-family: webkima !important;
+}
+
 .bg-secondary {
   background-color: var(--wb-secondary) !important;
 }
