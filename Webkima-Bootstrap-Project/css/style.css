@@ -11,6 +11,8 @@
   --wb-info: #04c4c9;
   --wb-info-dark: #0e8590;
   --wb-blue: #081d40;
+  --wb-blue2: #1A3366;
+  
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -47,6 +49,10 @@ body {
   background-color: var(--wb-secondary) !important;
 }
 
+.bg-blue2{
+  background-color: var(--wb-blue2) !important;
+}
+
 .top-bar .bg-primary {
   background-color: var(--wb-primary) !important;
 }
@@ -79,6 +85,13 @@ body {
   width: max-content;
 }
 
+.bi-basket-fill{
+  font-size: 1.5em !important;
+  position: relative;
+  top: 0.1rem;
+  left: 0.5rem;
+}
+
 .offcanvas-header .border-0:focus {
   outline: none !important;
 }
@@ -107,6 +120,31 @@ body {
   --bs-btn-disabled-border-color: var(--wb-primary) !important;
   --bs-gradient: none;
   transition: all 200ms ease-in-out;
+}
+
+.btn-info {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #04c4c9;
+  --bs-btn-border-color: #04c4c9;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #04c4c9;
+  --bs-btn-hover-border-color: #04c4c9;
+  --bs-btn-focus-shadow-rgb: 11, 172, 204;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #3dd5f3;
+  --bs-btn-active-border-color: #04c4c9;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #04c4c9;
+  --bs-btn-disabled-border-color: #04c4c9;
+}
+
+.btn-close {
+  --bs-btn-close-opacity: 1;
+  --bs-btn-close-hover-opacity: 1;
+  width: 0.3em;
+  height: 0.3em;
+  padding: 0.25em 0.25em;
 }
 
 .badge1 {
