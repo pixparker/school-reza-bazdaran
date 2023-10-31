@@ -163,16 +163,16 @@ body {
 
 @media screen and (min-width: 992px) {
   .carousel-control-prev {
-    right: -10% !important;
+    right: -2% !important;
   }
 
   .carousel-control-next {
-    left: -10% !important;
+    left: -2% !important;
   }
 
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
-    background-size: 200% 200% !important;
+    background-size: 150% 150% !important;
   }
 }
 
@@ -249,22 +249,18 @@ body {
 
 @keyframes myanimate {
   0% {
-    top: 0;
+    bottom: 0% ;
   }
-
   100% {
-    top: 10px;
+    bottom: 2% ;
   }
 }
 
 .new-youtube {
   position: fixed !important;
-  bottom: -80% !important;
-  left: -4% !important;
-
+  left: 0% !important;
   z-index: 2000;
   animation: myanimate 1s ease-in-out infinite alternate;
-  
 }
 
 .new-youtube a:nth-child(2):hover {
