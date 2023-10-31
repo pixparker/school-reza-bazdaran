@@ -44,12 +44,22 @@ body {
   font-family: "dana-VF", "dana", tahoma, serif;
 }
 
+.bg-primary {
+  background-color: var(--wb-primary) !important;
+}
 .bg-secondary {
   background-color: var(--wb-secondary) !important;
+}
+.bg-success {
+  background-color: var(--wb-success) !important;
 }
 
 .bg-blue2 {
   background-color: var(--wb-blue2) !important;
+}
+
+.border-blue2 {
+  border-color: var(--wb-blue2) !important;
 }
 
 .top-bar .bg-primary {
@@ -214,16 +224,15 @@ body {
   --bs-tooltip-color: var(--bs-white);
 }
 .custom-tooltip2 {
-  --bs-tooltip-bg: var(--wb-secondary);
+  --bs-tooltip-bg: #2c3d5e;
   --bs-tooltip-color: var(--bs-white);
   --bs-tooltip-padding-x: 40px;
   --bs-tooltip-padding-y: 30px;
-  --bs-tooltip-margin : 10px;
-  --bs-tooltip-arrow-width : 20px;
-  --bs-tooltip-font-size: 0.8em; 
-  --bs-tooltip-max-width : 100em;
-  
-  
+  --bs-tooltip-margin: 10px;
+  --bs-tooltip-arrow-width: 20px;
+  --bs-tooltip-font-size: 0.8em;
+  --bs-tooltip-max-width: 100em;
+  --bs-tooltip-border-radius: 0.5em;
 
   /* padding: 1em; */
   border-radius: 0.5em;
@@ -236,4 +245,32 @@ body {
     top: 50%;
     transform: translate(-50%, -105%);
   }
+}
+
+@keyframes myanimate {
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: 10px;
+  }
+}
+
+.new-youtube {
+  position: fixed !important;
+  bottom: -80% !important;
+  left: -4% !important;
+
+  z-index: 2000;
+  animation: myanimate 1s ease-in-out infinite alternate;
+  
+}
+
+.new-youtube a:nth-child(2):hover {
+  background-color: var(--wb-success) !important;
+}
+
+.new-youtube a:nth-child(1) > i:hover {
+  color: red !important;
 }
