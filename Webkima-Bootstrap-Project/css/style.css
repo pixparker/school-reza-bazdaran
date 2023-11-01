@@ -190,10 +190,14 @@ body {
 .free-new-courses a:hover {
   color: var(--wb-secondary-subtle) !important;
 }
-.free-new-courses > .row > .col-md-6 .row {
+.free-new-courses > .row > .col-md-6 .row,
+.trans1 {
+  border: solid 2px transparent !important;
+  
   transition: all 0.3s ease-in-out;
 }
-.free-new-courses > .row > .col-md-6 .row:hover {
+.free-new-courses > .row > .col-md-6 .row:hover,
+.trans1:hover {
   border: solid 2px #04c2c983 !important;
   border-radius: 0.5rem !important;
   transform: translateY(-5px);
@@ -249,10 +253,10 @@ body {
 
 @keyframes myanimate {
   0% {
-    bottom: 0% ;
+    bottom: 0%;
   }
   100% {
-    bottom: 2% ;
+    bottom: 2%;
   }
 }
 
@@ -272,9 +276,9 @@ body {
 }
 
 @media screen and (max-width: 576px) {
-
-  .fs-sm-4{
+  .fs-sm-4 {
     font-size: 1rem !important;
   }
-  
 }
+
+
