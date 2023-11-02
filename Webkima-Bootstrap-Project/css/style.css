@@ -12,8 +12,8 @@
   --wb-info-dark: #0e8590;
   --wb-blue: #081d40;
   --wb-blue2: #1a3366;
-  
 }
+
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -166,8 +166,6 @@ body {
   --bs-btn-disabled-border-color: #04c4c9;
 }
 
-
-
 .btn-close {
   --bs-btn-close-opacity: 1;
   --bs-btn-close-hover-opacity: 1;
@@ -213,7 +211,7 @@ body {
 .free-new-courses > .row > .col-md-6 .row,
 .trans1 {
   border: solid 2px transparent !important;
-  
+
   transition: all 0.3s ease-in-out;
 }
 .free-new-courses > .row > .col-md-6 .row:hover,
@@ -289,10 +287,12 @@ body {
 
 .new-youtube a:nth-child(2):hover {
   background-color: var(--wb-success) !important;
+  transition: all 300ms linear;
 }
 
 .new-youtube a:nth-child(1) > i:hover {
   color: red !important;
+  transition: all 300ms linear;
 }
 
 @media screen and (max-width: 576px) {
@@ -301,7 +301,5 @@ body {
   }
 }
 
-
-.go-top{
-
+.go-top {
 }
