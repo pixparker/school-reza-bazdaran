@@ -188,6 +188,34 @@
   top: 5% !important;
 }
 
+.text-opacity-10 {
+  --bs-text-opacity: 0.1;
+}
+.text-opacity-20 {
+  --bs-text-opacity: 0.2;
+}
+.text-opacity-30 {
+  --bs-text-opacity: 0.3;
+}
+.text-opacity-40 {
+  --bs-text-opacity: 0.4;
+}
+.text-opacity-55 {
+  --bs-text-opacity: 0.55;
+}
+.text-opacity-60 {
+  --bs-text-opacity: 0.6;
+}
+.text-opacity-70 {
+  --bs-text-opacity: 0.7;
+}
+.text-opacity-80 {
+  --bs-text-opacity: 0.8;
+}
+.text-opacity-90 {
+  --bs-text-opacity: 0.9;
+}
+
 @media (min-width: 576px) {
   .w-sm-0 {
     width: 0% !important;
