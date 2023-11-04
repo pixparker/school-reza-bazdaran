@@ -14,10 +14,10 @@
 <body class="">
     <!-- HEADER Start -->
     <div class="" id="gotop"></div>
-    <div class="header sticky-top border-bottom border-secondary">
-        <div class="top-bar container-fluid">
+    <div class="header sticky-top border-bottom border-secondary ">
+        <div class="top-bar container-fluid h-100">
             <div class="row d-flex justify-content-center align-items-center bg-primary position-relative p-1" id="nav1">
-                <button class="btn-close btn-close-white position-absolute start-0 ms-3" data-bs-toggle="collapse" data-bs-target="#nav1"></button>
+                <button class="btn-close btn-close-white position-absolute start-0 ms-3" onclick="closeBar()"></button>
                 <div class="row d-flex justify-content-center">
                     <div class="col-auto d-flex align-items-center">
                         <span class="text-light text-center fs-6l"><span class="mtsnb-text" style="">جشنواره بزرگ فروش ... تا 67 درصد تخفیف روی تمامی دوره‌ها
@@ -30,7 +30,7 @@
             </div>
         </div>
 
-        <nav class="sticky-top navbar navbar-expand-lg navbar-dark bg-secondary py-4 navbar-top">
+        <nav class=" navbar navbar-expand-lg navbar-dark bg-secondary py-0 navbar-top" id="navbar">
             <div class="container-fluid">
                 <a class="navbar-brand position-relative start-50 start-lg-0 w-lg-10 translate-middle-x" href="https://webkima.com">
                     <img class="col-10" src="images/dark-logo-min.png" alt="" />
@@ -224,7 +224,8 @@
 
                 <h3 class="text-light text-center my-5">دنبال یادگیری و پیشرفت در چه زمینه‌ای هستید؟</h3>
 
-                <div class="row row-gap-4 gx-4 px-4">
+
+                <div class="row row-gap-4 gx-4 px-4" id="learning">
                     <div class="col-6 col-lg-3">
                         <div class="text-center py-2 px-3 p-sm-4 bg-secondary rounded h-100 trans1">
                             <a href=""><img class="img-fluid col-9 col-sm-7 col-md-5 col-lg-10 col-xl-7" src="images/01.svg" alt="" /></a>
@@ -755,15 +756,15 @@
         <div class="copyright text-light text-center small p-3">تمامی حقوق برای آکادمی وبکیما محفوظ است. © 2023</div>
     </div>
 
-    <div class="go-top">
+    <div class="go-top d-none" id="gotop-btn">
         <a href="#gotop" class="btn btn-outline-primary-subtle fs-6 position-fixed start-1 bottom-2 bottom-0 border-light border-2"><i
                 class="bi bi-chevron-up text-light"></i></a>
     </div>
 
-    <div class="new-youtube row text-center d-flex flex-column justify-content-center align-items-center" id="ad">
+    <div class=" new-youtube row text-center d-flex flex-column justify-content-center align-items-center" id="ad">
         <div class="col-8">
-            <a href="" data-bs-dismiss=""><i class="fi-xnsuxl-times-solid text-light d-block fs-4"></i></a>
-            <a href="" class="bg-primary rounded link-light link-underline-opacity-0 d-block fw-bold">
+            <a href="##" onclick="closeAdd()"><i class="fi-xnsuxl-times-solid text-light d-block fs-4"></i></a>
+            <a href="#" class="bg-primary rounded link-light link-underline-opacity-0 d-block fw-bold">
                 <p class="py-2">آموزش های ویدئویی جدید در یوتیوب</p>
             </a>
         </div>
@@ -772,6 +773,13 @@
     <script defer src="https://friconix.com/cdn/friconix.js"></script>
     <script src="lib/js/bootstrap_5.3.2.bundle.min.js"></script>
     <script src="js/javascript.js"></script>
+
+
+
+
+
+
+
 </body>
 
 </html>
