@@ -1,0 +1,26 @@
+body {
+  height: 400vh;
+}
+
+.box1 {
+  height: 200px;
+  width: 100%;
+  border: dotted 2px green;
+  margin: 50px;
+  text-align: center;
+  color: green;
+  position: fixed;
+}
+.box2 {
+  height: 200px;
+  width: 100%;
+  border: dotted 2px red;
+  margin: 50px;
+  text-align: center;
+  color: red;
+}
+
+.box1 h1 {
+  position: relative;
+  top: 250px;
+}

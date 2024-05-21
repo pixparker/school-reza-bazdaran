@@ -1,0 +1,25 @@
+body{
+    height: 4000px;
+    
+}
+.container{
+    height: 2000px;
+    border: solid;
+    
+}
+.box1{
+    border: dashed 2px green;
+    height: 500px;
+    position: relative;
+    top: 0px;
+}
+
+.box1 h1 {
+    position: sticky;
+    top: 100px;
+}
+
+.box0 {
+    border: solid red;
+    height: 200px;
+}
